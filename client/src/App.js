@@ -1,48 +1,59 @@
-import React from 'react';
-import { BrowserRouter } from 'react-router-dom';
-import { Routes, Route } from 'react-router-dom';
-import { ThemeProvider, createTheme } from '@mui/material/styles';
-import CssBaseline from '@mui/material/CssBaseline';
-import Container from '@mui/material/Container';
-
-import Navbar from './components/layout/Navbar';
-import Home from './components/Home';
+// src/App.js
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { AuthProvider } from './context/AuthContext';
+import Layout from './components/layout/Layout';
 import Login from './components/auth/Login';
 import Register from './components/auth/Register';
-import TestList from './components/test/TestList';
-import TestPage from './components/test/TestPage';
-import TestResult from './components/test/TestResult';
-
-const theme = createTheme({
-  palette: {
-    primary: {
-      main: '#1976d2',
-    },
-    secondary: {
-      main: '#dc004e',
-    },
-  },
-});
+import ProtectedRoute from './components/ProtectedRoute';
+import Tests from './components/test/Tests';
+import TestDetail from './components/test/TestDetail';
+import Home from './components/Home';
+import TestHistory from './components/test/TestHistory';
 
 function App() {
-  return (
-    <ThemeProvider theme={theme}>
-      <CssBaseline />
-      <BrowserRouter>
-        <Navbar />
-        <Container sx={{ mt: 4 }}>
-          <Routes>
-            <Route exact path="/" element={<Home />} />
-            <Route path="/login" element={<Login />} />
-            <Route path="/register" element={<Register />} />
-            <Route path="/tests" element={<TestList />} />
-            <Route path="/test/:id" element={<TestPage />} />
-            <Route path="/result/:id" element={<TestResult />} />
-          </Routes>
-        </Container>
-      </BrowserRouter>
-    </ThemeProvider>
-  );
+    return (
+        <AuthProvider>
+            <BrowserRouter>
+                <Layout>
+                    <Routes>
+                        <Route path="/" element={<Home />} />  {/* Home route */}
+                        
+                        <Route path="/login" element={<Login />} />
+                        <Route path="/register" element={<Register />} />
+                        
+                        {/* Protected Routes */}
+                        <Route 
+                            path="/tests" 
+                            element={
+                                <ProtectedRoute>
+                                    <Tests />
+                                </ProtectedRoute>
+                            } 
+                        />
+                        <Route 
+                            path="/tests/:id" 
+                            element={
+                                <ProtectedRoute>
+                                    <TestDetail />
+                                </ProtectedRoute>
+                            } 
+                        />
+                        <Route 
+                            path="/tests/history" 
+                            element={
+                                <ProtectedRoute>
+                                    <TestHistory />
+                                </ProtectedRoute>
+                            } 
+                        />
+
+                        {/* Redirect any unknown routes to home */}
+                        <Route path="*" element={<Navigate to="/" />} />
+                    </Routes>
+                </Layout>
+            </BrowserRouter>
+        </AuthProvider>
+    );
 }
 
 export default App;

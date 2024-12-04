@@ -1,0 +1,37 @@
+.history-container {
+    padding: var(--spacing-lg) 0;
+    min-height: calc(100vh - 64px);
+}
+
+.empty-state {
+    padding: var(--spacing-xl);
+    text-align: center;
+    background-color: #f8fafc;
+}
+
+.MuiTableCell-head {
+    font-weight: 600 !important;
+    background-color: #f8fafc;
+}
+
+.MuiTableRow-root:hover {
+    background-color: #f1f5f9;
+}
+
+.MuiChip-root {
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .history-container {
+        padding: var(--spacing-md);
+    }
+
+    .MuiTable-root {
+        min-width: 650px;
+    }
+
+    .MuiTableCell-root {
+        padding: 8px;
+    }
+} 

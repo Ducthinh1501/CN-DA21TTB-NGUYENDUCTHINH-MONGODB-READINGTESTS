@@ -35,10 +35,18 @@ function Login() {
     setLoading(true);
 
     try {
-      const response = await axios.post('http://localhost:5000/api/auth/login', formData);
-      localStorage.setItem('token', response.data.token);
-      localStorage.setItem('user', JSON.stringify(response.data.user));
-      navigate('/tests');
+      const response = await axios.post('http://localhost:5000/api/users/login', formData);
+      
+      // Kiểm tra success từ response
+      if (response.data.success) {
+        // Lưu token từ cấu trúc response mới
+        localStorage.setItem('token', response.data.data.token);
+        // Lưu thông tin user
+        localStorage.setItem('user', JSON.stringify(response.data.data.user));
+        navigate('/tests');
+      } else {
+        setError(response.data.message);
+      }
     } catch (error) {
       setError(error.response?.data?.message || 'An error occurred');
     } finally {

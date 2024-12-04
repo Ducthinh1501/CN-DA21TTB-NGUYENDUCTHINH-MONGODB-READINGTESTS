@@ -1,58 +1,61 @@
 import React from 'react';
-import {
-  Container,
-  Paper,
-  Typography,
-  Box,
-  List,
-  ListItem,
-  ListItemText,
-  Divider
+import { 
+    Container, 
+    Typography, 
+    Box, 
+    Paper, 
+    Button 
 } from '@mui/material';
+import { useNavigate } from 'react-router-dom';
+import './TestResult.css';
 
-function TestResult({ result }) {
-  return (
-    <Container maxWidth="md">
-      <Paper elevation={3} sx={{ p: 4, mt: 4 }}>
-        <Typography variant="h4" gutterBottom align="center">
-          Test Results
-        </Typography>
+const TestResult = ({ test, answers, score }) => {
+    const navigate = useNavigate();
 
-        <Box sx={{ mb: 4 }}>
-          <Typography variant="h6">
-            Score: {result.score}%
-          </Typography>
-          <Typography variant="body1">
-            Time taken: {Math.floor(result.timeTaken / 60)}:{(result.timeTaken % 60).toString().padStart(2, '0')}
-          </Typography>
-        </Box>
+    return (
+        <Container maxWidth="md" className="test-result-container">
+            <Paper elevation={3} className="result-paper">
+                <Box className="result-header">
+                    <Typography variant="h4" component="h1" gutterBottom>
+                        Test Completed!
+                    </Typography>
+                    <Typography variant="h5" color="primary" gutterBottom>
+                        Your Score: {score}%
+                    </Typography>
+                </Box>
 
-        <List>
-          {result.answers.map((answer, index) => (
-            <React.Fragment key={index}>
-              <ListItem>
-                <ListItemText
-                  primary={`Question ${index + 1}`}
-                  secondary={
-                    <Box sx={{ mt: 1 }}>
-                      <Typography 
-                        variant="body2"
-                        color={answer.isCorrect ? 'success.main' : 'error.main'}
-                      >
-                        {answer.isCorrect ? '✓ Correct' : '✗ Incorrect'} - 
-                        Your answer: Option {answer.selectedAnswer + 1}
-                      </Typography>
-                    </Box>
-                  }
-                />
-              </ListItem>
-              <Divider />
-            </React.Fragment>
-          ))}
-        </List>
-      </Paper>
-    </Container>
-  );
-}
+                <Box className="questions-container">
+                    {test.questions.map((question, index) => (
+                        <Paper key={index} className="question-card">
+                            <Typography variant="subtitle1" gutterBottom>
+                                Question {index + 1}: {question.questionText}
+                            </Typography>
+                            <Typography variant="body2" color={
+                                answers[index] === question.correctAnswer ? "success.main" : "error.main"
+                            }>
+                                Your answer: {answers[index]}
+                            </Typography>
+                            <Typography variant="body2" color="primary">
+                                Correct answer: {question.correctAnswer}
+                            </Typography>
+                            <Typography variant="body2" sx={{ mt: 1 }}>
+                                Explanation: {question.explanation}
+                            </Typography>
+                        </Paper>
+                    ))}
+                </Box>
 
-export default TestResult;
+                <Button
+                    variant="contained"
+                    color="primary"
+                    onClick={() => navigate('/tests')}
+                    sx={{ mt: 3 }}
+                >
+                    Back to Tests
+                </Button>
+            </Paper>
+        </Container>
+    );
+};
+
+export default TestResult; 
