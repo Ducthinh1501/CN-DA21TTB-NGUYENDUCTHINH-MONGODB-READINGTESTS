@@ -79,7 +79,7 @@ app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 const userRoutes = require('./routes/users');
 const testRoutes = require('./routes/tests');
 const attemptRoutes = require('./routes/attempts');
-
+const adminRoutes = require('./routes/admin');
 // Route mặc định
 app.get('/', (req, res) => {
     res.send('Reading Test API is running');
@@ -89,6 +89,7 @@ app.get('/', (req, res) => {
 app.use('/api/users', userRoutes);
 app.use('/api/tests', testRoutes);
 app.use('/api/attempts', attemptRoutes);
+app.use('/api/admin', adminRoutes);
 
 // Error handling middleware
 app.use((err, req, res, next) => {

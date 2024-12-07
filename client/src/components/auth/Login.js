@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate, Link as RouterLink } from 'react-router-dom';
+import { useAuth } from '../../context/AuthContext';
 import {
   Container,
   Paper,
@@ -14,6 +15,7 @@ import axios from 'axios';
 
 function Login() {
   const navigate = useNavigate();
+  const { login } = useAuth();
   const [formData, setFormData] = useState({
     email: '',
     password: ''
@@ -35,17 +37,17 @@ function Login() {
     setLoading(true);
 
     try {
-      const response = await axios.post('http://localhost:5000/api/users/login', formData);
+      const user = await login(formData);
+      console.log('Login successful, user:', user);
       
-      // Kiểm tra success từ response
-      if (response.data.success) {
-        // Lưu token từ cấu trúc response mới
-        localStorage.setItem('token', response.data.data.token);
-        // Lưu thông tin user
-        localStorage.setItem('user', JSON.stringify(response.data.data.user));
-        navigate('/tests');
-      } else {
-        setError(response.data.message);
+      if (user) {
+        setTimeout(() => {
+          if (user.role === 'admin') {
+            navigate('/admin');
+          } else {
+            navigate('/tests');
+          }
+        }, 100);
       }
     } catch (error) {
       setError(error.response?.data?.message || 'An error occurred');
