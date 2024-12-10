@@ -1,0 +1,26 @@
+{
+  "type": "Compass Connections",
+  "version": {
+    "$numberInt": "1"
+  },
+  "connections": [
+    {
+      "id": "be646b40-3cdb-4d53-a472-116ebb36cb7f",
+      "lastUsed": {
+        "$date": {
+          "$numberLong": "1733817583305"
+        }
+      },
+      "favorite": {
+        "name": "CN-TestDatabase"
+      },
+      "savedConnectionType": "favorite",
+      "connectionOptions": {
+        "connectionString": "mongodb://localhost:27017/",
+        "oidc": {
+          "serializedState": "eyJvaWRjUGx1Z2luU3RhdGVWZXJzaW9uIjowLCJzdGF0ZSI6W119"
+        }
+      }
+    }
+  ]
+}

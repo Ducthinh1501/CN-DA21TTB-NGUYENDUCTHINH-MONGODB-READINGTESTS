@@ -68,7 +68,11 @@ function Navigation() {
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           {/* Logo - Desktop */}
-          <SchoolIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
+          <SchoolIcon sx={{ 
+            display: { xs: 'none', md: 'flex' }, 
+            mr: 1,
+            color: 'primary.main' 
+          }} />
           <Typography
             variant="h6"
             noWrap
@@ -169,7 +173,13 @@ function Navigation() {
             <Box sx={{ flexGrow: 0 }}>
               <Tooltip title="Open settings">
                 <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                  <Avatar alt={user.username} src="/static/images/avatar/2.jpg">
+                  <Avatar 
+                    sx={{ 
+                      bgcolor: 'primary.main',
+                      width: 35,
+                      height: 35
+                    }}
+                  >
                     {user.username?.charAt(0).toUpperCase()}
                   </Avatar>
                 </IconButton>
@@ -204,7 +214,13 @@ function Navigation() {
               <Button
                 component={RouterLink}
                 to="/login"
-                sx={{ color: 'white', mr: 1 }}
+                sx={{ 
+                  color: 'text.primary',
+                  mr: 2,
+                  '&:hover': {
+                    color: 'primary.main'
+                  }
+                }}
               >
                 Login
               </Button>
@@ -213,9 +229,10 @@ function Navigation() {
                 to="/register"
                 variant="contained"
                 sx={{ 
-                  bgcolor: 'secondary.main',
+                  px: 3,
+                  bgcolor: 'primary.main',
                   '&:hover': {
-                    bgcolor: 'secondary.dark',
+                    bgcolor: 'primary.dark'
                   }
                 }}
               >

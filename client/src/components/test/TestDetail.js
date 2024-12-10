@@ -14,8 +14,7 @@ import {
     Paper,
     CircularProgress,
     Alert,
-    Chip,
-    Divider
+    Chip
 } from '@mui/material';
 import './TestDetail.css';
 import TestResult from './TestResult';
@@ -150,60 +149,57 @@ const TestDetail = () => {
                     </Typography>
                 </Box>
 
-                <Divider sx={{ my: 3 }} />
-
-                {/* Reading Passage */}
-                <Box className="passage-container">
-                    <Typography variant="h6" gutterBottom>
-                        Reading Passage
-                    </Typography>
-                    <Paper elevation={1} className="passage-paper">
-                        <Typography variant="body1">
+                {/* Content Layout */}
+                <Box className="content-layout">
+                    {/* Reading Passage */}
+                    <Box className="passage-container">
+                        <Typography variant="h6" gutterBottom>
+                            Reading Passage
+                        </Typography>
+                        <Typography variant="body1" className="passage-paper">
                             {test.passage}
                         </Typography>
-                    </Paper>
-                </Box>
-
-                <Divider sx={{ my: 3 }} />
-
-                {/* Questions Section */}
-                {!submitted ? (
-                    <Box className="questions-container">
-                        <Typography variant="h6" gutterBottom>
-                            Questions
-                        </Typography>
-                        {test.questions.map((question, index) => (
-                            <Paper key={index} className="question-card">
-                                <Typography variant="subtitle1" gutterBottom>
-                                    Question {index + 1}: {question.questionText}
-                                </Typography>
-                                <FormControl component="fieldset">
-                                    <RadioGroup
-                                        value={answers[index] || ''}
-                                        onChange={(e) => handleAnswerChange(index, e.target.value)}
-                                    >
-                                        <FormControlLabel value="true" control={<Radio />} label="True" />
-                                        <FormControlLabel value="false" control={<Radio />} label="False" />
-                                        <FormControlLabel value="not given" control={<Radio />} label="Not Given" />
-                                    </RadioGroup>
-                                </FormControl>
-                            </Paper>
-                        ))}
-                        <Box className="submit-container">
-                            <Button
-                                variant="contained"
-                                color="primary"
-                                size="large"
-                                onClick={handleSubmit}
-                                className="submit-button"
-                            >
-                                Submit Test
-                            </Button>
-                        </Box>
                     </Box>
-                ) : (
-                    <TestResult test={test} answers={answers} score={score} />
-                )}
+
+                    {/* Questions Section */}
+                    {!submitted ? (
+                        <Box className="questions-container">
+                            <Typography variant="h6" gutterBottom>
+                                Questions
+                            </Typography>
+                            {test.questions.map((question, index) => (
+                                <Paper key={index} className="question-card">
+                                    <Typography variant="subtitle1" gutterBottom>
+                                        Question {index + 1}: {question.questionText}
+                                    </Typography>
+                                    <FormControl component="fieldset">
+                                        <RadioGroup
+                                            value={answers[index] || ''}
+                                            onChange={(e) => handleAnswerChange(index, e.target.value)}
+                                        >
+                                            <FormControlLabel value="true" control={<Radio />} label="True" />
+                                            <FormControlLabel value="false" control={<Radio />} label="False" />
+                                            <FormControlLabel value="not given" control={<Radio />} label="Not Given" />
+                                        </RadioGroup>
+                                    </FormControl>
+                                </Paper>
+                            ))}
+                            <Box className="submit-container">
+                                <Button
+                                    variant="contained"
+                                    color="primary"
+                                    size="large"
+                                    onClick={handleSubmit}
+                                    className="submit-button"
+                                >
+                                    Submit Test
+                                </Button>
+                            </Box>
+                        </Box>
+                    ) : (
+                        <TestResult test={test} answers={answers} score={score} />
+                    )}
+                </Box>
             </Paper>
         </Container>
     );

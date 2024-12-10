@@ -3,6 +3,7 @@ const router = express.Router();
 const auth = require('../middleware/auth');
 const Test = require('../models/Test');
 const TestResult = require('../models/TestResult');
+const mongoose = require('mongoose');
 
 /**
  * @swagger
@@ -37,13 +38,40 @@ const TestResult = require('../models/TestResult');
  */
 router.get('/', auth, async (req, res) => {
     try {
-        console.log('Fetching tests...');
+        console.log('Fetching all tests...');
+        
+        // Kiểm tra xem có tests trong database không
+        const count = await Test.countDocuments({ isActive: true });
+        console.log('Total active tests:', count);
+
         const tests = await Test.find({ isActive: true });
-        console.log('Found tests:', tests.length);
+        console.log('Tests found:', tests.length);
+
+        // Log chi tiết về mỗi test
+        tests.forEach(test => {
+            console.log('Test:', {
+                id: test._id,
+                title: test.title,
+                category: test.category,
+                difficulty: test.difficulty
+            });
+        });
+
+        if (!tests || tests.length === 0) {
+            console.log('No reading tests found in database');
+            return res.status(404).json({ message: 'No tests found' });
+        }
+
         res.json(tests);
     } catch (err) {
-        console.error('Error in GET /api/tests:', err);
-        res.status(500).json({ message: 'Server error' });
+        console.error('Error in GET /tests:', {
+            error: err.message,
+            stack: err.stack
+        });
+        res.status(500).json({ 
+            message: 'Error fetching reading tests',
+            error: err.message 
+        });
     }
 });
 
@@ -68,14 +96,86 @@ router.get('/', auth, async (req, res) => {
  */
 router.get('/:id', auth, async (req, res) => {
     try {
-        const test = await Test.findOne({ _id: req.params.id, isActive: true });
-        if (!test) {
-            return res.status(404).json({ message: 'Test not found' });
+        console.log('Attempting to fetch test with ID:', req.params.id);
+
+        if (!req.params.id) {
+            console.log('Invalid test ID provided');
+            return res.status(400).json({ message: 'Invalid test ID' });
         }
+
+        let test = null;
+        const testId = req.params.id;
+
+        // Thử các cách tìm khác nhau
+        try {
+            // Cách 1: Tìm với ID gốc
+            test = await mongoose.connection.db
+                .collection('readingtests')
+                .findOne({ _id: testId });
+
+            // Cách 2: Nếu không tìm thấy, thử với ObjectId
+            if (!test && mongoose.Types.ObjectId.isValid(testId)) {
+                test = await mongoose.connection.db
+                    .collection('readingtests')
+                    .findOne({ _id: new mongoose.Types.ObjectId(testId) });
+            }
+
+            // Cách 3: Thử với string
+            if (!test) {
+                test = await mongoose.connection.db
+                    .collection('readingtests')
+                    .findOne({ _id: testId.toString() });
+            }
+
+        } catch (searchError) {
+            console.error('Error during test search:', searchError);
+        }
+
+        // Log chi tiết kết quả tìm kiếm
+        console.log('Search results:', {
+            searchId: testId,
+            found: !!test,
+            testInfo: test ? {
+                id: test._id,
+                title: test.title,
+                type: typeof test._id,
+                hasQuestions: Array.isArray(test.questions),
+                questionCount: test.questions?.length || 0
+            } : null
+        });
+
+        if (!test) {
+            return res.status(404).json({ 
+                message: 'Test not found',
+                requestedId: testId
+            });
+        }
+
+        // Validate test structure
+        if (!test.questions || !Array.isArray(test.questions)) {
+            console.error('Invalid test structure:', {
+                id: test._id,
+                hasQuestions: !!test.questions,
+                questionsType: typeof test.questions
+            });
+            return res.status(500).json({ 
+                message: 'Invalid test structure',
+                error: 'Test questions not found or invalid'
+            });
+        }
+
         res.json(test);
+
     } catch (err) {
-        console.error('Error in GET /api/tests/:id:', err);
-        res.status(500).json({ message: 'Server error' });
+        console.error('Error fetching test details:', {
+            error: err.message,
+            stack: err.stack,
+            testId: req.params.id
+        });
+        res.status(500).json({ 
+            message: 'Error fetching test details',
+            error: err.message 
+        });
     }
 });
 
@@ -114,61 +214,92 @@ router.get('/:id', auth, async (req, res) => {
  */
 router.post('/:id/submit', auth, async (req, res) => {
     try {
-        console.log('User from request:', req.user);
-        console.log('Received submission:', req.body);
+        const testId = req.params.id;
+        console.log('Processing test submission for ID:', testId);
 
-        const test = await Test.findById(req.params.id);
+        // Chuyển đổi string ID thành ObjectId
+        const objectId = new mongoose.Types.ObjectId(testId);
+        
+        // Tìm test với ObjectId
+        const test = await mongoose.connection.db
+            .collection('readingtests')
+            .findOne({ _id: objectId });
+
+        console.log('Found test:', {
+            id: testId,
+            found: !!test,
+            title: test?.title
+        });
+
         if (!test) {
-            return res.status(404).json({ message: 'Test not found' });
-        }
-
-        if (!req.user || !req.user._id) {
-            return res.status(401).json({ message: 'User not authenticated' });
+            return res.status(404).json({ 
+                message: 'Test not found',
+                requestedId: testId 
+            });
         }
 
         const { answers } = req.body;
-        
         if (!Array.isArray(answers)) {
+            console.log('Invalid answers format:', answers);
             return res.status(400).json({ message: 'Invalid answers format' });
         }
 
+        // Calculate score
         let correctCount = 0;
         const answersDetails = test.questions.map((question, index) => {
             const userAnswer = answers[index] || '';
-            const isCorrect = userAnswer === question.correctAnswer;
+            const isCorrect = userAnswer.toLowerCase() === question.correctAnswer.toLowerCase();
             if (isCorrect) correctCount++;
             
             return {
                 questionText: question.questionText,
                 userAnswer: userAnswer,
                 correctAnswer: question.correctAnswer,
-                isCorrect: isCorrect
+                isCorrect: isCorrect,
+                explanation: question.explanation
             };
         });
 
         const score = Math.round((correctCount / test.questions.length) * 100);
-        console.log('Calculated score:', score);
-        console.log('Answers details:', answersDetails);
 
-        // Create new test result
-        const testResult = await TestResult.create({
-            user: req.user._id,
-            test: test._id,
-            answers: answersDetails,
-            score: score
+        // Log kết quả
+        console.log('Test submission results:', {
+            testId: testId,
+            score,
+            correctCount,
+            totalQuestions: test.questions.length
         });
 
-        console.log('Test result saved:', testResult._id);
+        // Lưu kết quả test (nếu cần)
+        const testResult = {
+            user: req.user.id,
+            test: objectId,
+            score: score,
+            answers: answersDetails,
+            completedAt: new Date()
+        };
 
+        await mongoose.connection.db
+            .collection('testresults')
+            .insertOne(testResult);
+
+        // Send response
         res.json({ 
             score,
-            testResultId: testResult._id,
-            details: answersDetails
+            details: answersDetails,
+            totalQuestions: test.questions.length,
+            correctAnswers: correctCount,
+            message: 'Test submitted successfully'
         });
+
     } catch (err) {
-        console.error('Server error:', err);
+        console.error('Error submitting test:', {
+            error: err.message,
+            stack: err.stack,
+            testId: req.params.id
+        });
         res.status(500).json({ 
-            message: 'Server error',
+            message: 'Failed to submit test',
             error: err.message 
         });
     }

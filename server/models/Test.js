@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const TestSchema = new mongoose.Schema({
+const testSchema = new mongoose.Schema({
     title: {
         type: String,
         required: true
@@ -27,23 +27,17 @@ const TestSchema = new mongoose.Schema({
         required: true
     },
     questions: [{
-        questionText: {
-            type: String,
-            required: true
-        },
-        correctAnswer: {
-            type: String,
-            required: true
-        },
-        explanation: {
-            type: String,
-            required: true
-        }
+        questionText: String,
+        correctAnswer: String,
+        explanation: String
     }],
     isActive: {
         type: Boolean,
         default: true
     }
+}, { 
+    collection: 'readingtests',
+    versionKey: false
 });
 
-module.exports = mongoose.model('Test', TestSchema, 'readingtests'); 
+module.exports = mongoose.model('Test', testSchema); 
