@@ -165,7 +165,7 @@ function Home() {
                         position: 'relative'
                       }}
                     >
-                      Skills with AI
+                      
                     </Box>
                   </Typography>
 
@@ -197,7 +197,7 @@ function Home() {
                           mx: 1
                         }}
                       >
-                        AI-powered
+                        
                       </Box>
                       platform. Practice with curated materials and track your progress in real-time.
                     </motion.div>

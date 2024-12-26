@@ -8,7 +8,7 @@ const mongoose = require('mongoose');
 /**
  * @swagger
  * /api/tests:
- *   get:
+ *   get:   
  *     summary: Get all active reading tests
  *     tags: [Tests]
  *     responses:
