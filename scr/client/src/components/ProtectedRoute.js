@@ -7,7 +7,7 @@ const ProtectedRoute = ({ children }) => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        // Kiểm tra token trong localStorage
+       
         const token = localStorage.getItem('token');
         const user = localStorage.getItem('user');
         
@@ -17,12 +17,12 @@ const ProtectedRoute = ({ children }) => {
         setLoading(false);
     }, []);
 
-    // Hiển thị loading khi đang kiểm tra authentication
+    
     if (loading) {
         return <div>Loading...</div>;
     }
 
-    // Nếu không có token, chuyển hướng về trang login
+    
     if (!isAuthenticated) {
         return <Navigate to="/login" />;
     }
