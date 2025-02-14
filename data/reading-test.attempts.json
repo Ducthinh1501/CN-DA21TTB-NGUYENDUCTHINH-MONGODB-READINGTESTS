@@ -1,0 +1,129 @@
+[{
+  "_id": {
+    "$oid": "674ac7166979ff90cd93f1cc"
+  },
+  "userId": "user123",
+  "testId": "test456",
+  "startTime": "2024-03-19T09:00:00Z",
+  "endTime": "2024-03-19T09:18:00Z",
+  "answers": [
+    {
+      "questionId": "q1",
+      "userAnswer": "true",
+      "isCorrect": true
+    },
+    {
+      "questionId": "q2",
+      "userAnswer": "false",
+      "isCorrect": true
+    },
+    {
+      "questionId": "q3",
+      "userAnswer": "not given",
+      "isCorrect": true
+    },
+    {
+      "questionId": "q4",
+      "userAnswer": "true",
+      "isCorrect": true
+    },
+    {
+      "questionId": "q5",
+      "userAnswer": "false",
+      "isCorrect": true
+    }
+  ],
+  "score": 100,
+  "totalQuestions": 5,
+  "correctAnswers": 5
+},
+{
+  "_id": {
+    "$oid": "674ac7356979ff90cd93f1ce"
+  },
+  "userId": "user123",
+  "testId": "test789",
+  "startTime": "2024-03-19T14:00:00Z",
+  "endTime": "2024-03-19T14:15:00Z",
+  "answers": [
+    {
+      "questionId": "q1",
+      "userAnswer": "true",
+      "isCorrect": true
+    },
+    {
+      "questionId": "q2",
+      "userAnswer": "false",
+      "isCorrect": false
+    },
+    {
+      "questionId": "q3",
+      "userAnswer": "not given",
+      "isCorrect": true
+    },
+    {
+      "questionId": "q4",
+      "userAnswer": "true",
+      "isCorrect": false
+    },
+    {
+      "questionId": "q5",
+      "userAnswer": "true",
+      "isCorrect": true
+    }
+  ],
+  "score": 60,
+  "totalQuestions": 5,
+  "correctAnswers": 3
+},
+{
+  "_id": {
+    "$oid": "674ac73f6979ff90cd93f1d0"
+  },
+  "userId": "user123",
+  "testId": "test101",
+  "startTime": "2024-03-19T16:00:00Z",
+  "answers": [],
+  "score": 0,
+  "totalQuestions": 5,
+  "correctAnswers": 0
+},
+{
+  "_id": {
+    "$oid": "674ac75e6979ff90cd93f1d3"
+  },
+  "userId": "user789",
+  "testId": "test123",
+  "startTime": "2024-03-19T11:00:00Z",
+  "endTime": "2024-03-19T11:20:00Z",
+  "answers": [
+    {
+      "questionId": "q1",
+      "userAnswer": "false",
+      "isCorrect": false
+    },
+    {
+      "questionId": "q2",
+      "userAnswer": "true",
+      "isCorrect": false
+    },
+    {
+      "questionId": "q3",
+      "userAnswer": "not given",
+      "isCorrect": true
+    },
+    {
+      "questionId": "q4",
+      "userAnswer": "false",
+      "isCorrect": false
+    },
+    {
+      "questionId": "q5",
+      "userAnswer": "true",
+      "isCorrect": false
+    }
+  ],
+  "score": 20,
+  "totalQuestions": 5,
+  "correctAnswers": 1
+}]

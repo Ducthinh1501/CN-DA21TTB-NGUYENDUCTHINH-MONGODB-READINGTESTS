@@ -1,0 +1,756 @@
+[{
+  "_id": {
+    "$oid": "674aa413e9af88ae517198fa"
+  },
+  "title": "Modern Space Exploration",
+  "description": "A detailed passage about recent developments in space exploration",
+  "passage": "Space exploration has entered an exciting new era with both government agencies and private companies pushing the boundaries of what's possible. SpaceX has revolutionized the industry with its reusable rocket technology, significantly reducing launch costs. NASA's Artemis program aims to return humans to the Moon by 2025, establishing a permanent lunar base that will serve as a stepping stone for future Mars missions. The James Webb Space Telescope, launched in 2021, is providing unprecedented views of distant galaxies and potentially habitable exoplanets. China has also made significant strides, successfully landing rovers on Mars and establishing their own space station. Despite these achievements, challenges remain, including radiation protection for astronauts, long-term life support systems, and the psychological effects of extended space travel.",
+  "timeLimit": 10,
+  "difficulty": "easy",
+  "category": "Science",
+  "questions": [
+    {
+      "questionText": "SpaceX has made space launches more expensive.",
+      "correctAnswer": "false",
+      "explanation": "The passage states that SpaceX has reduced launch costs with reusable rocket technology."
+    },
+    {
+      "questionText": "NASA plans to establish a permanent base on the Moon.",
+      "correctAnswer": "true",
+      "explanation": "The passage mentions NASA's plans for a permanent lunar base."
+    },
+    {
+      "questionText": "The James Webb Space Telescope can observe distant galaxies.",
+      "correctAnswer": "true",
+      "explanation": "The passage states that the telescope provides views of distant galaxies."
+    },
+    {
+      "questionText": "The passage discusses the cost of training astronauts.",
+      "correctAnswer": "not given",
+      "explanation": "The passage does not mention anything about astronaut training costs."
+    },
+    {
+      "questionText": "China has successfully landed rovers on Mars.",
+      "correctAnswer": "true",
+      "explanation": "The passage explicitly mentions China's successful Mars rover landings."
+    },
+    {
+      "questionText": "test.",
+      "correctAnswer": "true",
+      "explanation": "Test"
+    }
+  ],
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "674aa435e9af88ae517198fc"
+  },
+  "title": "The Rise of Artificial Intelligence",
+  "description": "An exploration of AI development and its impact",
+  "passage": "Artificial Intelligence has transformed from science fiction into reality, revolutionizing numerous sectors of society. Modern AI systems can now perform complex tasks such as natural language processing, image recognition, and strategic decision-making. In healthcare, AI algorithms are assisting doctors in diagnosing diseases and analyzing medical images with remarkable accuracy. The technology has also made significant inroads in financial services, where AI-powered systems detect fraud and make investment decisions. However, the rise of AI has raised important ethical concerns. Questions about job displacement, algorithmic bias, and privacy have become increasingly prominent. While some experts warn about the potential risks of advanced AI systems, others emphasize the technology's capacity to solve complex global challenges. Despite these debates, AI development continues to accelerate, with new applications emerging regularly.",
+  "timeLimit": 10,
+  "difficulty": "easy",
+  "category": "Technology",
+  "questions": [
+    {
+      "questionText": "AI systems can assist in medical diagnosis.",
+      "correctAnswer": "true",
+      "explanation": "The passage mentions AI algorithms assisting doctors in diagnosing diseases."
+    },
+    {
+      "questionText": "All experts agree that AI poses no risks.",
+      "correctAnswer": "false",
+      "explanation": "The passage mentions that some experts warn about potential risks."
+    },
+    {
+      "questionText": "AI is used in financial fraud detection.",
+      "correctAnswer": "true",
+      "explanation": "The passage states that AI-powered systems detect fraud in financial services."
+    },
+    {
+      "questionText": "The passage discusses AI's role in transportation.",
+      "correctAnswer": "not given",
+      "explanation": "The passage does not mention AI's role in transportation."
+    },
+    {
+      "questionText": "Algorithmic bias is mentioned as an ethical concern.",
+      "correctAnswer": "true",
+      "explanation": "The passage explicitly lists algorithmic bias as one of the ethical concerns."
+    }
+  ],
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "674aa43ee9af88ae517198fe"
+  },
+  "title": "Protecting Our Oceans",
+  "description": "A passage about marine conservation efforts",
+  "passage": "The world's oceans face unprecedented challenges from human activities. Plastic pollution has reached alarming levels, with an estimated 8 million tons of plastic entering the oceans annually. Marine ecosystems are also threatened by overfishing, with many commercial fish species now at risk of collapse. Rising ocean temperatures and acidification due to climate change are causing widespread coral bleaching, threatening these crucial marine habitats. However, conservation efforts are showing promising results in some areas. Marine protected areas have helped restore fish populations, and innovative technologies are being developed to clean ocean plastic. Several countries have implemented strict fishing quotas and banned single-use plastics. Scientists are also working on coral restoration projects and developing heat-resistant coral species.",
+  "timeLimit": 20,
+  "difficulty": "easy",
+  "category": "Environment",
+  "questions": [
+    {
+      "questionText": "8 million tons of plastic enter the oceans each year.",
+      "correctAnswer": "true",
+      "explanation": "The passage states this figure explicitly."
+    },
+    {
+      "questionText": "All marine conservation efforts have failed.",
+      "correctAnswer": "false",
+      "explanation": "The passage mentions several successful conservation efforts."
+    },
+    {
+      "questionText": "Marine protected areas have helped fish populations recover.",
+      "correctAnswer": "true",
+      "explanation": "The passage states that marine protected areas have helped restore fish populations."
+    },
+    {
+      "questionText": "The passage discusses underwater volcanoes.",
+      "correctAnswer": "not given",
+      "explanation": "The passage does not mention underwater volcanoes."
+    },
+    {
+      "questionText": "Scientists are developing heat-resistant corals.",
+      "correctAnswer": "true",
+      "explanation": "The passage mentions scientists developing heat-resistant coral species."
+    }
+  ],
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "674aa44ae9af88ae51719900"
+  },
+  "title": "Digital Privacy in Modern Era",
+  "description": "Understanding digital privacy and data protection",
+  "passage": "Digital privacy has become a critical concern in our interconnected world. Major tech companies collect vast amounts of personal data, including browsing habits, location information, and communication patterns. While this data collection enables personalized services, it also raises significant privacy concerns. Recent data breaches have exposed millions of users' personal information, leading to identity theft and financial fraud. Governments worldwide have responded with new regulations, such as Europe's GDPR and California's CCPA, giving users more control over their personal data. Companies must now obtain explicit consent for data collection and provide options for users to access or delete their information. Despite these protections, experts warn that emerging technologies like facial recognition and AI-powered surveillance pose new challenges to privacy.",
+  "timeLimit": 25,
+  "difficulty": "easy",
+  "category": "Technology",
+  "questions": [
+    {
+      "questionText": "Tech companies collect users' location information.",
+      "correctAnswer": "true",
+      "explanation": "The passage explicitly mentions location information as part of collected data."
+    },
+    {
+      "questionText": "GDPR was implemented in the United States.",
+      "correctAnswer": "false",
+      "explanation": "The passage states that GDPR is European regulation."
+    },
+    {
+      "questionText": "Companies must get consent for data collection.",
+      "correctAnswer": "true",
+      "explanation": "The passage mentions that explicit consent is now required."
+    },
+    {
+      "questionText": "The passage discusses cryptocurrency privacy.",
+      "correctAnswer": "not given",
+      "explanation": "The passage does not mention anything about cryptocurrency."
+    },
+    {
+      "questionText": "Facial recognition is mentioned as a privacy challenge.",
+      "correctAnswer": "true",
+      "explanation": "The passage lists facial recognition as one of the new challenges to privacy."
+    }
+  ],
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "674aa454e9af88ae51719902"
+  },
+  "title": "The Future of Renewable Energy",
+  "description": "Exploring advances in sustainable energy",
+  "passage": "Renewable energy is transforming the global power sector at an unprecedented pace. Solar panel efficiency has improved dramatically while costs have dropped by over 80% in the past decade. Wind power, both onshore and offshore, now provides significant portions of electricity in many countries. Advanced battery technology is solving the intermittency problem of renewable sources, allowing for reliable energy storage. Countries like Denmark and Germany frequently generate more than 40% of their electricity from renewable sources. However, challenges remain in grid integration and energy transmission. The development of smart grids and microgrids is helping to address these challenges, while new technologies like green hydrogen offer promising solutions for sectors difficult to electrify.",
+  "timeLimit": 20,
+  "difficulty": "easy",
+  "category": "Environment",
+  "questions": [
+    {
+      "questionText": "Solar panel costs have decreased by 80% in the past decade.",
+      "correctAnswer": "true",
+      "explanation": "The passage explicitly states this cost reduction."
+    },
+    {
+      "questionText": "Renewable energy cannot be stored effectively.",
+      "correctAnswer": "false",
+      "explanation": "The passage mentions that advanced battery technology is solving storage issues."
+    },
+    {
+      "questionText": "Denmark and Germany use significant renewable energy.",
+      "correctAnswer": "true",
+      "explanation": "The passage states they generate more than 40% from renewables."
+    },
+    {
+      "questionText": "The passage discusses nuclear fusion.",
+      "correctAnswer": "not given",
+      "explanation": "The passage does not mention nuclear fusion."
+    },
+    {
+      "questionText": "Green hydrogen is mentioned as a solution.",
+      "correctAnswer": "true",
+      "explanation": "The passage mentions green hydrogen as a promising solution."
+    }
+  ],
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "674aa45de9af88ae51719904"
+  },
+  "title": "Understanding the Human Brain",
+  "description": "Recent discoveries in neuroscience",
+  "passage": "Recent advances in neuroscience have revolutionized our understanding of the human brain. Scientists have discovered that the brain continues to form new neural connections throughout life, a process called neuroplasticity. Advanced imaging techniques now allow researchers to observe brain activity in real-time, revealing how different regions communicate during various tasks. Studies have shown that sleep plays a crucial role in memory consolidation and brain maintenance, with inadequate sleep linked to various cognitive problems. Exercise has been found to promote the production of new brain cells, particularly in the hippocampus, a region important for learning and memory. Research has also revealed that bilingual individuals often show enhanced cognitive abilities and may have greater resistance to certain types of dementia.",
+  "timeLimit": 25,
+  "difficulty": "Hard",
+  "category": "Science",
+  "questions": [
+    {
+      "questionText": "The brain stops forming new connections in adulthood.",
+      "correctAnswer": "false",
+      "explanation": "The passage states that the brain continues forming new connections throughout life."
+    },
+    {
+      "questionText": "Sleep is important for memory consolidation.",
+      "correctAnswer": "true",
+      "explanation": "The passage explicitly mentions sleep's role in memory consolidation."
+    },
+    {
+      "questionText": "Exercise can stimulate new brain cell production.",
+      "correctAnswer": "true",
+      "explanation": "The passage states that exercise promotes new brain cell production."
+    },
+    {
+      "questionText": "The passage discusses brain surgery techniques.",
+      "correctAnswer": "not given",
+      "explanation": "The passage does not mention brain surgery."
+    },
+    {
+      "questionText": "Bilingualism may help protect against dementia.",
+      "correctAnswer": "true",
+      "explanation": "The passage mentions bilingual individuals having greater resistance to certain types of dementia."
+    }
+  ],
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6757ff3dd8e43a9a22d54a91"
+  },
+  "title": "Digital Privacy in Modern Era",
+  "description": "Understanding digital privacy and data protection",
+  "passage": "Digital privacy has become a critical concern in our interconnected world. Tech companies routinely collect vast amounts of personal data, including browsing habits, location information, and communication patterns. The implementation of GDPR in Europe has set new standards for data protection, requiring companies to obtain explicit consent before collecting personal information. Organizations must now be transparent about their data collection practices and provide users with control over their information. Recent technological advances have introduced new challenges to privacy, including facial recognition systems, AI-powered surveillance, and sophisticated tracking methods. Data breaches have become more frequent and costly, affecting millions of users worldwide. Companies are investing heavily in cybersecurity measures, but threats continue to evolve. Privacy advocates are pushing for stronger regulations while balancing innovation needs. The debate between privacy rights and technological advancement continues to shape digital policies and practices.",
+  "timeLimit": 25,
+  "difficulty": "medium",
+  "category": "Technology",
+  "questions": [
+    {
+      "questionText": "Tech companies collect users' location information.",
+      "correctAnswer": "true",
+      "explanation": "The passage explicitly mentions location information as part of collected personal data."
+    },
+    {
+      "questionText": "GDPR was implemented in the United States.",
+      "correctAnswer": "false",
+      "explanation": "The passage states that GDPR is European regulation."
+    },
+    {
+      "questionText": "Companies must get consent for data collection.",
+      "correctAnswer": "true",
+      "explanation": "The passage mentions that explicit consent is now required."
+    },
+    {
+      "questionText": "The passage discusses cryptocurrency privacy.",
+      "correctAnswer": "not given",
+      "explanation": "The passage does not mention anything about cryptocurrency."
+    },
+    {
+      "questionText": "Facial recognition is mentioned as a privacy challenge.",
+      "correctAnswer": "true",
+      "explanation": "The passage lists facial recognition as one of the new challenges to privacy."
+    },
+    {
+      "questionText": "Data breaches affect only a small number of users.",
+      "correctAnswer": "false",
+      "explanation": "The passage states that data breaches affect millions of users worldwide."
+    },
+    {
+      "questionText": "Companies are investing in cybersecurity.",
+      "correctAnswer": "true",
+      "explanation": "The passage mentions that companies are investing heavily in cybersecurity measures."
+    },
+    {
+      "questionText": "Privacy advocates oppose all technological advancement.",
+      "correctAnswer": "false",
+      "explanation": "The passage suggests a balance between privacy rights and technological advancement."
+    },
+    {
+      "questionText": "Organizations must be transparent about data collection.",
+      "correctAnswer": "true",
+      "explanation": "The passage states that organizations must be transparent about their data collection practices."
+    },
+    {
+      "questionText": "AI-powered surveillance is mentioned as a privacy concern.",
+      "correctAnswer": "true",
+      "explanation": "The passage includes AI-powered surveillance among the new challenges to privacy."
+    }
+  ],
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6757ff3dd8e43a9a22d54a92"
+  },
+  "title": "Climate Change Impact",
+  "description": "Understanding global climate change and its effects",
+  "passage": "Climate change has emerged as one of the most pressing challenges of our time, affecting ecosystems and human societies worldwide. Global temperatures continue to rise due to increased greenhouse gas emissions, primarily from human activities such as burning fossil fuels and deforestation. Scientists have observed significant changes in weather patterns, including more frequent extreme weather events, rising sea levels, and melting polar ice caps. The Intergovernmental Panel on Climate Change (IPCC) reports that without immediate action to reduce emissions, global temperatures could rise by more than 2°C above pre-industrial levels, leading to catastrophic consequences. Many countries have signed the Paris Agreement, committing to reduce their carbon emissions and transition to renewable energy sources. Businesses are increasingly adopting sustainable practices and investing in green technologies. However, climate change already impacts agriculture, causing crop failures and food security concerns in vulnerable regions. Coastal communities face threats from rising sea levels and stronger storms. Biodiversity is also at risk, with many species struggling to adapt to rapidly changing habitats. Conservation efforts and ecosystem restoration projects are being implemented globally, but experts stress the need for more ambitious action. Public awareness and education about climate change have grown, leading to grassroots movements and pressure on governments and corporations to take meaningful action. The transition to a low-carbon economy presents both challenges and opportunities for innovation and sustainable development.",
+  "timeLimit": 25,
+  "difficulty": "medium",
+  "category": "Environment",
+  "questions": [
+    {
+      "questionText": "Global temperatures are rising due to greenhouse gas emissions.",
+      "correctAnswer": "true",
+      "explanation": "The passage explicitly states that global temperatures are rising due to increased greenhouse gas emissions."
+    },
+    {
+      "questionText": "The Paris Agreement focuses on nuclear energy development.",
+      "correctAnswer": "false",
+      "explanation": "The passage mentions the Paris Agreement in relation to reducing carbon emissions and transitioning to renewable energy, not nuclear energy."
+    },
+    {
+      "questionText": "Climate change affects food security in vulnerable regions.",
+      "correctAnswer": "true",
+      "explanation": "The passage mentions that climate change impacts agriculture, causing crop failures and food security concerns in vulnerable regions."
+    },
+    {
+      "questionText": "The IPCC predicts a temperature rise of exactly 2°C.",
+      "correctAnswer": "false",
+      "explanation": "The passage states temperatures could rise by more than 2°C, not exactly 2°C."
+    },
+    {
+      "questionText": "The passage discusses the impact of climate change on urban air quality.",
+      "correctAnswer": "not given",
+      "explanation": "The passage does not mention anything about urban air quality."
+    },
+    {
+      "questionText": "Rising sea levels threaten coastal communities.",
+      "correctAnswer": "true",
+      "explanation": "The passage explicitly mentions that coastal communities face threats from rising sea levels."
+    },
+    {
+      "questionText": "Businesses are adopting sustainable practices.",
+      "correctAnswer": "true",
+      "explanation": "The passage states that businesses are increasingly adopting sustainable practices."
+    },
+    {
+      "questionText": "Climate change only affects developing countries.",
+      "correctAnswer": "false",
+      "explanation": "The passage indicates that climate change affects ecosystems and human societies worldwide."
+    },
+    {
+      "questionText": "Public awareness about climate change has increased.",
+      "correctAnswer": "true",
+      "explanation": "The passage mentions that public awareness and education about climate change have grown."
+    },
+    {
+      "questionText": "The passage mentions deforestation as a contributor to climate change.",
+      "correctAnswer": "true",
+      "explanation": "The passage lists deforestation along with burning fossil fuels as primary causes of increased greenhouse gas emissions."
+    }
+  ],
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6757ff3dd8e43a9a22d54a93"
+  },
+  "title": "Artificial Intelligence Ethics",
+  "description": "Understanding ethical considerations in AI development and deployment",
+  "passage": "The rapid advancement of Artificial Intelligence (AI) has brought unprecedented ethical challenges to the forefront of technological development. As AI systems become more sophisticated, questions about privacy, bias, accountability, and human autonomy have become increasingly critical. Machine learning algorithms, while powerful, can perpetuate existing societal biases if trained on biased data sets. Companies developing AI must carefully consider the implications of their technology on various demographic groups. The European Union has introduced comprehensive AI regulations, requiring transparency in AI decision-making processes and mandating human oversight for high-risk AI applications. Privacy concerns have intensified as AI systems process vast amounts of personal data to improve their performance. Healthcare AI applications, while promising revolutionary improvements in diagnosis and treatment, raise questions about patient confidentiality and consent. The automation of jobs through AI has sparked debates about economic displacement and the need for reskilling programs. Some experts advocate for the development of 'explainable AI' systems that can justify their decisions in human-understandable terms. The military application of AI, particularly in autonomous weapons systems, has led to calls for international regulations and ethical guidelines. Tech companies are establishing ethics boards and developing principles for responsible AI development, though critics argue these measures may be insufficient. The challenge lies in balancing innovation with ethical considerations while ensuring AI benefits society as a whole.",
+  "timeLimit": 25,
+  "difficulty": "hard",
+  "category": "Technology",
+  "questions": [
+    {
+      "questionText": "AI systems can perpetuate societal biases through training data.",
+      "correctAnswer": "true",
+      "explanation": "The passage states that machine learning algorithms can perpetuate existing societal biases if trained on biased data sets."
+    },
+    {
+      "questionText": "The EU has banned all AI applications in healthcare.",
+      "correctAnswer": "false",
+      "explanation": "The passage mentions EU regulations requiring transparency and oversight, not banning AI in healthcare."
+    },
+    {
+      "questionText": "AI applications in healthcare raise privacy concerns.",
+      "correctAnswer": "true",
+      "explanation": "The passage mentions concerns about patient confidentiality and consent in healthcare AI applications."
+    },
+    {
+      "questionText": "The passage discusses the impact of AI on stock markets.",
+      "correctAnswer": "not given",
+      "explanation": "The passage does not mention anything about AI's impact on stock markets."
+    },
+    {
+      "questionText": "Companies are establishing ethics boards for AI development.",
+      "correctAnswer": "true",
+      "explanation": "The passage explicitly states that tech companies are establishing ethics boards."
+    },
+    {
+      "questionText": "AI automation has no impact on employment.",
+      "correctAnswer": "false",
+      "explanation": "The passage mentions debates about economic displacement due to AI automation."
+    },
+    {
+      "questionText": "Explainable AI systems can justify their decisions to humans.",
+      "correctAnswer": "true",
+      "explanation": "The passage mentions 'explainable AI' systems that can justify their decisions in human-understandable terms."
+    },
+    {
+      "questionText": "Military use of AI has raised ethical concerns.",
+      "correctAnswer": "true",
+      "explanation": "The passage mentions concerns about military applications of AI, particularly in autonomous weapons systems."
+    },
+    {
+      "questionText": "Current ethical measures for AI are universally accepted as sufficient.",
+      "correctAnswer": "false",
+      "explanation": "The passage notes that critics argue these measures may be insufficient."
+    },
+    {
+      "questionText": "The EU requires human oversight for high-risk AI applications.",
+      "correctAnswer": "true",
+      "explanation": "The passage explicitly states that EU regulations mandate human oversight for high-risk AI applications."
+    }
+  ],
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6757ff3dd8e43a9a22d54a94"
+  },
+  "title": "Ocean Conservation Challenges",
+  "description": "Understanding marine ecosystem protection and conservation efforts",
+  "passage": "Ocean conservation has become increasingly crucial as marine ecosystems face unprecedented threats from human activities. Plastic pollution has reached alarming levels, with an estimated 8 million tons of plastic entering the oceans annually, forming massive garbage patches in ocean gyres. Marine life frequently mistakes plastic debris for food, leading to devastating consequences for sea creatures and their habitats. Overfishing has depleted many fish populations, with some species reaching critically low levels. The United Nations reports that over 30% of global fish stocks are being exploited at unsustainable rates. Climate change poses another significant threat, as rising ocean temperatures cause coral bleaching and disrupt marine ecosystems. Ocean acidification, caused by increased absorption of carbon dioxide, affects the ability of marine organisms to build and maintain their shells and skeletons. Conservation efforts include the establishment of marine protected areas, which now cover approximately 7% of the world's oceans. International agreements aim to reduce plastic waste, combat illegal fishing, and protect endangered marine species. Scientists are developing innovative solutions, such as coral reef restoration projects and sustainable fishing practices. Public awareness campaigns have led to increased support for ocean conservation, with many communities and businesses adopting plastic-free initiatives. However, experts emphasize that more comprehensive global action is needed to protect our oceans for future generations.",
+  "timeLimit": 25,
+  "difficulty": "hard",
+  "category": "Environment",
+  "questions": [
+    {
+      "questionText": "Eight million tons of plastic enter the oceans each year.",
+      "correctAnswer": "true",
+      "explanation": "The passage explicitly states that an estimated 8 million tons of plastic enter the oceans annually."
+    },
+    {
+      "questionText": "All fish populations have been depleted by overfishing.",
+      "correctAnswer": "false",
+      "explanation": "The passage mentions that many fish populations are depleted, not all of them."
+    },
+    {
+      "questionText": "Marine protected areas cover 7% of the world's oceans.",
+      "correctAnswer": "true",
+      "explanation": "The passage states that marine protected areas cover approximately 7% of the world's oceans."
+    },
+    {
+      "questionText": "The passage discusses the impact of underwater mining.",
+      "correctAnswer": "not given",
+      "explanation": "The passage does not mention anything about underwater mining."
+    },
+    {
+      "questionText": "Ocean acidification affects marine organisms' shell formation.",
+      "correctAnswer": "true",
+      "explanation": "The passage mentions that ocean acidification affects marine organisms' ability to build and maintain shells."
+    },
+    {
+      "questionText": "Conservation efforts have completely solved the plastic pollution crisis.",
+      "correctAnswer": "false",
+      "explanation": "The passage indicates that plastic pollution remains a serious problem despite conservation efforts."
+    },
+    {
+      "questionText": "Climate change causes coral bleaching.",
+      "correctAnswer": "true",
+      "explanation": "The passage states that rising ocean temperatures from climate change cause coral bleaching."
+    },
+    {
+      "questionText": "Marine life often mistakes plastic for food.",
+      "correctAnswer": "true",
+      "explanation": "The passage explicitly mentions that marine life frequently mistakes plastic debris for food."
+    },
+    {
+      "questionText": "The UN reports 30% of fish stocks are sustainably managed.",
+      "correctAnswer": "false",
+      "explanation": "The passage states that over 30% of fish stocks are being exploited at unsustainable rates."
+    },
+    {
+      "questionText": "Communities are adopting plastic-free initiatives.",
+      "correctAnswer": "true",
+      "explanation": "The passage mentions that many communities and businesses are adopting plastic-free initiatives."
+    }
+  ],
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6757ff3dd8e43a9a22d54a95"
+  },
+  "title": "Modern Space Exploration",
+  "description": "Understanding current developments in space exploration and technology",
+  "passage": "Space exploration has entered a new era marked by both government initiatives and private sector involvement. Companies like SpaceX and Blue Origin have revolutionized space travel by developing reusable rocket technology, significantly reducing launch costs. NASA's Artemis program aims to return humans to the Moon by 2025, establishing a sustainable lunar presence as a stepping stone to Mars exploration. The International Space Station continues to serve as a crucial platform for scientific research in microgravity, hosting experiments from various nations. Mars exploration has advanced significantly with rovers like Perseverance searching for signs of ancient microbial life and collecting samples for future return to Earth. Telescope technology has also evolved, with the James Webb Space Telescope providing unprecedented views of distant galaxies and potentially habitable exoplanets. Space debris has become a growing concern, with thousands of defunct satellites and fragments orbiting Earth, posing risks to active satellites and spacecraft. Scientists are developing technologies to clean up space debris and prevent future accumulation. The commercialization of space has led to innovations in satellite technology, particularly in global communications and Earth observation. Several countries are establishing space forces and developing policies for the military use of space, raising questions about space security and international cooperation. Despite these challenges, international collaboration in space research continues, with joint missions and data sharing advancing our understanding of the universe.",
+  "timeLimit": 25,
+  "difficulty": "medium",
+  "category": "Science",
+  "questions": [
+    {
+      "questionText": "Reusable rocket technology has reduced launch costs.",
+      "correctAnswer": "true",
+      "explanation": "The passage states that companies have developed reusable rocket technology, significantly reducing launch costs."
+    },
+    {
+      "questionText": "The Artemis program plans to send humans to Mars by 2025.",
+      "correctAnswer": "false",
+      "explanation": "The passage mentions that the Artemis program aims to return humans to the Moon, not Mars, by 2025."
+    },
+    {
+      "questionText": "The International Space Station conducts microgravity research.",
+      "correctAnswer": "true",
+      "explanation": "The passage mentions that the ISS serves as a platform for scientific research in microgravity."
+    },
+    {
+      "questionText": "The passage discusses the cost of space tourism.",
+      "correctAnswer": "not given",
+      "explanation": "The passage does not mention anything about space tourism costs."
+    },
+    {
+      "questionText": "Space debris poses risks to active satellites.",
+      "correctAnswer": "true",
+      "explanation": "The passage explicitly states that space debris poses risks to active satellites and spacecraft."
+    },
+    {
+      "questionText": "All countries have established their own space forces.",
+      "correctAnswer": "false",
+      "explanation": "The passage mentions that several countries, not all, are establishing space forces."
+    },
+    {
+      "questionText": "The James Webb Telescope can observe distant galaxies.",
+      "correctAnswer": "true",
+      "explanation": "The passage states that the James Webb Space Telescope provides views of distant galaxies."
+    },
+    {
+      "questionText": "Mars rovers are searching for signs of ancient life.",
+      "correctAnswer": "true",
+      "explanation": "The passage mentions that rovers like Perseverance are searching for signs of ancient microbial life."
+    },
+    {
+      "questionText": "International collaboration in space research has ceased.",
+      "correctAnswer": "false",
+      "explanation": "The passage states that international collaboration in space research continues."
+    },
+    {
+      "questionText": "Private companies are involved in space exploration.",
+      "correctAnswer": "true",
+      "explanation": "The passage mentions companies like SpaceX and Blue Origin being involved in space exploration."
+    }
+  ],
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6757ff3dd8e43a9a22d54a96"
+  },
+  "title": "Mental Health in Digital Age",
+  "description": "Understanding the impact of digital technology on mental wellbeing",
+  "passage": "The digital age has significantly transformed how we live, work, and interact, bringing new challenges to mental health and wellbeing. Social media platforms, while connecting people globally, have been linked to increased rates of anxiety and depression, particularly among younger users. Studies show that excessive screen time and constant connectivity can disrupt sleep patterns and contribute to feelings of loneliness despite virtual connections. The phenomenon of 'digital burnout' has become increasingly common, with many people experiencing stress from the pressure to remain constantly available online. Mental health professionals are adapting their practices to include digital therapeutics and teletherapy services, making mental healthcare more accessible to remote populations. However, concerns about online privacy and data security in mental health applications have emerged. The COVID-19 pandemic accelerated the adoption of digital mental health solutions, as lockdowns forced many to rely on virtual support systems. Workplace mental health has gained attention as remote work blurs the boundaries between professional and personal life. Digital wellness apps and mindfulness platforms have proliferated, offering tools for stress management and emotional regulation. Schools and universities are implementing digital wellness programs to help students cope with online learning challenges. Despite these innovations, experts emphasize the importance of balancing digital engagement with offline activities and maintaining genuine human connections. Organizations are developing guidelines for healthy digital habits and implementing 'digital detox' initiatives to promote mental wellbeing.",
+  "timeLimit": 25,
+  "difficulty": "medium",
+  "category": "Health",
+  "questions": [
+    {
+      "questionText": "Social media use is linked to increased anxiety and depression.",
+      "correctAnswer": "true",
+      "explanation": "The passage states that social media platforms have been linked to increased rates of anxiety and depression."
+    },
+    {
+      "questionText": "Digital technology has eliminated all mental health challenges.",
+      "correctAnswer": "false",
+      "explanation": "The passage indicates that digital technology has brought new challenges to mental health."
+    },
+    {
+      "questionText": "Teletherapy has made mental healthcare more accessible.",
+      "correctAnswer": "true",
+      "explanation": "The passage mentions that teletherapy services have made mental healthcare more accessible to remote populations."
+    },
+    {
+      "questionText": "The passage discusses the cost of mental health apps.",
+      "correctAnswer": "not given",
+      "explanation": "The passage does not mention anything about the cost of mental health applications."
+    },
+    {
+      "questionText": "Remote work affects work-life boundaries.",
+      "correctAnswer": "true",
+      "explanation": "The passage states that remote work blurs the boundaries between professional and personal life."
+    },
+    {
+      "questionText": "Digital wellness apps can only be used by professionals.",
+      "correctAnswer": "false",
+      "explanation": "The passage indicates that digital wellness apps are widely available, not restricted to professionals."
+    },
+    {
+      "questionText": "Schools are implementing digital wellness programs.",
+      "correctAnswer": "true",
+      "explanation": "The passage explicitly mentions that schools and universities are implementing digital wellness programs."
+    },
+    {
+      "questionText": "Excessive screen time can affect sleep patterns.",
+      "correctAnswer": "true",
+      "explanation": "The passage states that excessive screen time can disrupt sleep patterns."
+    },
+    {
+      "questionText": "Organizations are promoting digital detox initiatives.",
+      "correctAnswer": "true",
+      "explanation": "The passage mentions that organizations are implementing 'digital detox' initiatives."
+    },
+    {
+      "questionText": "The COVID-19 pandemic increased use of digital mental health solutions.",
+      "correctAnswer": "true",
+      "explanation": "The passage states that the COVID-19 pandemic accelerated the adoption of digital mental health solutions."
+    }
+  ],
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6757ff3dd8e43a9a22d54a97"
+  },
+  "title": "Sustainable Agriculture",
+  "description": "Understanding modern sustainable farming practices and food security",
+  "passage": "Sustainable agriculture has emerged as a critical solution to address global food security while protecting environmental resources. Traditional farming methods are being transformed by precision agriculture technologies, which use sensors, GPS mapping, and data analytics to optimize crop yields while minimizing resource usage. Vertical farming in urban areas has gained popularity, allowing year-round food production in controlled environments while reducing transportation costs and carbon emissions. Organic farming practices continue to expand globally, focusing on soil health and biodiversity without synthetic pesticides or fertilizers. Farmers are increasingly adopting regenerative agriculture techniques that sequester carbon in the soil, helping to combat climate change while improving soil fertility. Water conservation has become paramount, with drip irrigation and water recycling systems becoming standard in many regions. Genetic diversity in crop selection helps build resilience against pests and climate variations, while traditional seed banking preserves agricultural heritage. Smart farming technologies enable real-time monitoring of crop health and automated irrigation systems. The farm-to-table movement has shortened supply chains, reducing food waste and supporting local economies. However, challenges remain in scaling these sustainable practices to meet growing global food demand. Agricultural education programs are helping farmers transition to sustainable methods, while consumers increasingly demand environmentally responsible food production. International cooperation is essential for sharing sustainable farming knowledge and resources across different regions and climates.",
+  "timeLimit": 25,
+  "difficulty": "hard",
+  "category": "Agriculture",
+  "questions": [
+    {
+      "questionText": "Precision agriculture uses GPS and data analytics.",
+      "correctAnswer": "true",
+      "explanation": "The passage mentions that precision agriculture uses sensors, GPS mapping, and data analytics."
+    },
+    {
+      "questionText": "Vertical farming increases transportation costs.",
+      "correctAnswer": "false",
+      "explanation": "The passage states that vertical farming reduces transportation costs."
+    },
+    {
+      "questionText": "Regenerative agriculture helps sequester carbon.",
+      "correctAnswer": "true",
+      "explanation": "The passage states that regenerative agriculture techniques sequester carbon in the soil."
+    },
+    {
+      "questionText": "The passage discusses livestock farming methods.",
+      "correctAnswer": "not given",
+      "explanation": "The passage does not mention anything about livestock farming."
+    },
+    {
+      "questionText": "Smart farming enables real-time crop monitoring.",
+      "correctAnswer": "true",
+      "explanation": "The passage mentions that smart farming technologies enable real-time monitoring of crop health."
+    },
+    {
+      "questionText": "Sustainable farming eliminates all environmental impacts.",
+      "correctAnswer": "false",
+      "explanation": "The passage discusses reducing environmental impact, not eliminating it completely."
+    },
+    {
+      "questionText": "Water conservation includes drip irrigation systems.",
+      "correctAnswer": "true",
+      "explanation": "The passage mentions drip irrigation as part of water conservation methods."
+    },
+    {
+      "questionText": "Genetic diversity helps protect against pests.",
+      "correctAnswer": "true",
+      "explanation": "The passage states that genetic diversity helps build resilience against pests."
+    },
+    {
+      "questionText": "Farm-to-table movement reduces food waste.",
+      "correctAnswer": "true",
+      "explanation": "The passage mentions that the farm-to-table movement reduces food waste."
+    },
+    {
+      "questionText": "Agricultural education helps farmers adopt sustainable methods.",
+      "correctAnswer": "true",
+      "explanation": "The passage states that agricultural education programs help farmers transition to sustainable methods."
+    }
+  ],
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "678a998541c4b4ae919cf78b"
+  },
+  "title": "Climate Change and Global Warming",
+  "description": "Understanding the causes and impacts of climate change",
+  "passage": "Climate change represents one of the most significant challenges facing our planet today. Global temperatures have risen by approximately 1.1°C since pre-industrial times, primarily due to greenhouse gas emissions from human activities. The burning of fossil fuels, deforestation, and industrial processes continue to release carbon dioxide and other greenhouse gases into the atmosphere. These changes have led to more frequent extreme weather events, rising sea levels, and disruption of ecosystems worldwide. Scientists have observed melting polar ice caps, increasing ocean acidification, and shifts in wildlife migration patterns. While some regions experience severe droughts, others face unprecedented flooding. International efforts, such as the Paris Agreement, aim to limit global temperature rise to well below 2°C. Many countries are now investing in renewable energy sources, implementing carbon pricing systems, and developing new technologies for carbon capture. However, experts warn that current commitments may not be sufficient to prevent severe climate impacts. The transition to a low-carbon economy requires significant changes in energy production, transportation, and industrial practices.",
+  "timeLimit": 25,
+  "difficulty": "medium",
+  "category": "Environment",
+  "questions": [
+    {
+      "questionText": "Global temperatures have risen by more than 2°C since pre-industrial times.",
+      "correctAnswer": "false",
+      "explanation": "The passage states that temperatures have risen by approximately 1.1°C."
+    },
+    {
+      "questionText": "Human activities are the main cause of greenhouse gas emissions.",
+      "correctAnswer": "true",
+      "explanation": "The passage mentions that greenhouse gas emissions from human activities are primarily responsible."
+    },
+    {
+      "questionText": "The Paris Agreement aims to limit global temperature rise.",
+      "correctAnswer": "true",
+      "explanation": "The passage explicitly mentions the Paris Agreement's goal to limit temperature rise."
+    },
+    {
+      "questionText": "The passage discusses the cost of renewable energy.",
+      "correctAnswer": "not given",
+      "explanation": "The passage does not mention the cost of renewable energy."
+    },
+    {
+      "questionText": "Climate change affects wildlife migration patterns.",
+      "correctAnswer": "true",
+      "explanation": "The passage mentions shifts in wildlife migration patterns."
+    },
+    {
+      "questionText": "All regions experience the same climate change impacts.",
+      "correctAnswer": "false",
+      "explanation": "The passage indicates different regions experience different impacts (droughts vs flooding)."
+    },
+    {
+      "questionText": "Countries are investing in renewable energy sources.",
+      "correctAnswer": "true",
+      "explanation": "The passage states that many countries are investing in renewable energy."
+    },
+    {
+      "questionText": "Current climate commitments are definitely sufficient.",
+      "correctAnswer": "false",
+      "explanation": "The passage warns that current commitments may not be sufficient."
+    },
+    {
+      "questionText": "Ocean acidification is mentioned as an impact.",
+      "correctAnswer": "true",
+      "explanation": "The passage explicitly mentions increasing ocean acidification."
+    },
+    {
+      "questionText": "The passage discusses nuclear energy solutions.",
+      "correctAnswer": "not given",
+      "explanation": "The passage does not mention nuclear energy."
+    },
+    {
+      "questionText": "Testzzzzzzzzzzzzzzzzz",
+      "correctAnswer": "true",
+      "explanation": "Test"
+    }
+  ],
+  "isActive": true
+}]

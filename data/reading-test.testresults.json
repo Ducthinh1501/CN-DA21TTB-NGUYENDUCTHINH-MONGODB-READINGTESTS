@@ -1,0 +1,3170 @@
+[{
+  "_id": {
+    "$oid": "674e78b2aeba0bf1a5f21ddd"
+  },
+  "user": {
+    "$oid": "674da80b1dd19fbb7bf8167d"
+  },
+  "test": {
+    "$oid": "674aa413e9af88ae517198fa"
+  },
+  "answers": [
+    {
+      "questionText": "SpaceX has made space launches more expensive.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "674e78b2aeba0bf1a5f21dde"
+      }
+    },
+    {
+      "questionText": "NASA plans to establish a permanent base on the Moon.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "674e78b2aeba0bf1a5f21ddf"
+      }
+    },
+    {
+      "questionText": "The James Webb Space Telescope can observe distant galaxies.",
+      "userAnswer": "false",
+      "correctAnswer": "true",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "674e78b2aeba0bf1a5f21de0"
+      }
+    },
+    {
+      "questionText": "The passage discusses the cost of training astronauts.",
+      "userAnswer": "false",
+      "correctAnswer": "not given",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "674e78b2aeba0bf1a5f21de1"
+      }
+    },
+    {
+      "questionText": "China has successfully landed rovers on Mars.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "674e78b2aeba0bf1a5f21de2"
+      }
+    }
+  ],
+  "score": 40,
+  "completedAt": {
+    "$date": "2024-12-03T03:19:14.328Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "674e78cbaeba0bf1a5f21e39"
+  },
+  "user": {
+    "$oid": "674da80b1dd19fbb7bf8167d"
+  },
+  "test": {
+    "$oid": "674aa43ee9af88ae517198fe"
+  },
+  "answers": [
+    {
+      "questionText": "8 million tons of plastic enter the oceans each year.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "674e78cbaeba0bf1a5f21e3a"
+      }
+    },
+    {
+      "questionText": "All marine conservation efforts have failed.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "674e78cbaeba0bf1a5f21e3b"
+      }
+    },
+    {
+      "questionText": "Marine protected areas have helped fish populations recover.",
+      "userAnswer": "not given",
+      "correctAnswer": "true",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "674e78cbaeba0bf1a5f21e3c"
+      }
+    },
+    {
+      "questionText": "The passage discusses underwater volcanoes.",
+      "userAnswer": "true",
+      "correctAnswer": "not given",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "674e78cbaeba0bf1a5f21e3d"
+      }
+    },
+    {
+      "questionText": "Scientists are developing heat-resistant corals.",
+      "userAnswer": "not given",
+      "correctAnswer": "true",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "674e78cbaeba0bf1a5f21e3e"
+      }
+    }
+  ],
+  "score": 20,
+  "completedAt": {
+    "$date": "2024-12-03T03:19:39.827Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "674e78daaeba0bf1a5f21e95"
+  },
+  "user": {
+    "$oid": "674da80b1dd19fbb7bf8167d"
+  },
+  "test": {
+    "$oid": "674aa43ee9af88ae517198fe"
+  },
+  "answers": [
+    {
+      "questionText": "8 million tons of plastic enter the oceans each year.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "674e78daaeba0bf1a5f21e96"
+      }
+    },
+    {
+      "questionText": "All marine conservation efforts have failed.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "674e78daaeba0bf1a5f21e97"
+      }
+    },
+    {
+      "questionText": "Marine protected areas have helped fish populations recover.",
+      "userAnswer": "false",
+      "correctAnswer": "true",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "674e78daaeba0bf1a5f21e98"
+      }
+    },
+    {
+      "questionText": "The passage discusses underwater volcanoes.",
+      "userAnswer": "true",
+      "correctAnswer": "not given",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "674e78daaeba0bf1a5f21e99"
+      }
+    },
+    {
+      "questionText": "Scientists are developing heat-resistant corals.",
+      "userAnswer": "false",
+      "correctAnswer": "true",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "674e78daaeba0bf1a5f21e9a"
+      }
+    }
+  ],
+  "score": 20,
+  "completedAt": {
+    "$date": "2024-12-03T03:19:54.513Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "674e792caeba0bf1a5f21fa7"
+  },
+  "user": {
+    "$oid": "674da80b1dd19fbb7bf8167d"
+  },
+  "test": {
+    "$oid": "674aa413e9af88ae517198fa"
+  },
+  "answers": [
+    {
+      "questionText": "SpaceX has made space launches more expensive.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "674e792caeba0bf1a5f21fa8"
+      }
+    },
+    {
+      "questionText": "NASA plans to establish a permanent base on the Moon.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "674e792caeba0bf1a5f21fa9"
+      }
+    },
+    {
+      "questionText": "The James Webb Space Telescope can observe distant galaxies.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "674e792caeba0bf1a5f21faa"
+      }
+    },
+    {
+      "questionText": "The passage discusses the cost of training astronauts.",
+      "userAnswer": "true",
+      "correctAnswer": "not given",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "674e792caeba0bf1a5f21fab"
+      }
+    },
+    {
+      "questionText": "China has successfully landed rovers on Mars.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "674e792caeba0bf1a5f21fac"
+      }
+    }
+  ],
+  "score": 60,
+  "completedAt": {
+    "$date": "2024-12-03T03:21:16.130Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "674e7a46aeba0bf1a5f22122"
+  },
+  "user": {
+    "$oid": "674da80b1dd19fbb7bf8167d"
+  },
+  "test": {
+    "$oid": "674aa413e9af88ae517198fa"
+  },
+  "answers": [
+    {
+      "questionText": "SpaceX has made space launches more expensive.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "674e7a46aeba0bf1a5f22123"
+      }
+    },
+    {
+      "questionText": "NASA plans to establish a permanent base on the Moon.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "674e7a46aeba0bf1a5f22124"
+      }
+    },
+    {
+      "questionText": "The James Webb Space Telescope can observe distant galaxies.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "674e7a46aeba0bf1a5f22125"
+      }
+    },
+    {
+      "questionText": "The passage discusses the cost of training astronauts.",
+      "userAnswer": "true",
+      "correctAnswer": "not given",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "674e7a46aeba0bf1a5f22126"
+      }
+    },
+    {
+      "questionText": "China has successfully landed rovers on Mars.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "674e7a46aeba0bf1a5f22127"
+      }
+    }
+  ],
+  "score": 60,
+  "completedAt": {
+    "$date": "2024-12-03T03:25:58.005Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "675265f2eff36636b65d0312"
+  },
+  "user": {
+    "$oid": "674dbeabac4de52e96da37ca"
+  },
+  "test": {
+    "$oid": "674aa435e9af88ae517198fc"
+  },
+  "answers": [
+    {
+      "questionText": "AI systems can assist in medical diagnosis.",
+      "userAnswer": "false",
+      "correctAnswer": "true",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "675265f2eff36636b65d0313"
+      }
+    },
+    {
+      "questionText": "All experts agree that AI poses no risks.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "675265f2eff36636b65d0314"
+      }
+    },
+    {
+      "questionText": "AI is used in financial fraud detection.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "675265f2eff36636b65d0315"
+      }
+    },
+    {
+      "questionText": "The passage discusses AI's role in transportation.",
+      "userAnswer": "true",
+      "correctAnswer": "not given",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "675265f2eff36636b65d0316"
+      }
+    },
+    {
+      "questionText": "Algorithmic bias is mentioned as an ethical concern.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "675265f2eff36636b65d0317"
+      }
+    }
+  ],
+  "score": 40,
+  "completedAt": {
+    "$date": "2024-12-06T02:48:18.474Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6752a6954679cbb8fe8614a1"
+  },
+  "user": {
+    "$oid": "674dbeabac4de52e96da37ca"
+  },
+  "test": {
+    "$oid": "674aa413e9af88ae517198fa"
+  },
+  "answers": [
+    {
+      "questionText": "SpaceX has made space launches more expensive.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "6752a6954679cbb8fe8614a2"
+      }
+    },
+    {
+      "questionText": "NASA plans to establish a permanent base on the Moon.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "6752a6954679cbb8fe8614a3"
+      }
+    },
+    {
+      "questionText": "The James Webb Space Telescope can observe distant galaxies.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "6752a6954679cbb8fe8614a4"
+      }
+    },
+    {
+      "questionText": "The passage discusses the cost of training astronauts.",
+      "userAnswer": "true",
+      "correctAnswer": "not given",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "6752a6954679cbb8fe8614a5"
+      }
+    },
+    {
+      "questionText": "China has successfully landed rovers on Mars.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "6752a6954679cbb8fe8614a6"
+      }
+    }
+  ],
+  "score": 60,
+  "completedAt": {
+    "$date": "2024-12-06T07:24:05.870Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6752a6cf4679cbb8fe8614fd"
+  },
+  "user": {
+    "$oid": "674dbeabac4de52e96da37ca"
+  },
+  "test": {
+    "$oid": "674aa413e9af88ae517198fa"
+  },
+  "answers": [
+    {
+      "questionText": "SpaceX has made space launches more expensive.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "6752a6cf4679cbb8fe8614fe"
+      }
+    },
+    {
+      "questionText": "NASA plans to establish a permanent base on the Moon.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "6752a6cf4679cbb8fe8614ff"
+      }
+    },
+    {
+      "questionText": "The James Webb Space Telescope can observe distant galaxies.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "6752a6cf4679cbb8fe861500"
+      }
+    },
+    {
+      "questionText": "The passage discusses the cost of training astronauts.",
+      "userAnswer": "true",
+      "correctAnswer": "not given",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "6752a6cf4679cbb8fe861501"
+      }
+    },
+    {
+      "questionText": "China has successfully landed rovers on Mars.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "6752a6cf4679cbb8fe861502"
+      }
+    }
+  ],
+  "score": 60,
+  "completedAt": {
+    "$date": "2024-12-06T07:25:03.216Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6752b0387709e97f0afb1148"
+  },
+  "user": {
+    "$oid": "67415a85a2f18db52e257bde"
+  },
+  "test": {
+    "$oid": "674aa413e9af88ae517198fa"
+  },
+  "answers": [
+    {
+      "questionText": "SpaceX has made space launches more expensive.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "6752b0387709e97f0afb1149"
+      }
+    },
+    {
+      "questionText": "NASA plans to establish a permanent base on the Moon.",
+      "userAnswer": "not given",
+      "correctAnswer": "true",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "6752b0387709e97f0afb114a"
+      }
+    },
+    {
+      "questionText": "The James Webb Space Telescope can observe distant galaxies.",
+      "userAnswer": "false",
+      "correctAnswer": "true",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "6752b0387709e97f0afb114b"
+      }
+    },
+    {
+      "questionText": "The passage discusses the cost of training astronauts.",
+      "userAnswer": "false",
+      "correctAnswer": "not given",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "6752b0387709e97f0afb114c"
+      }
+    },
+    {
+      "questionText": "China has successfully landed rovers on Mars.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "6752b0387709e97f0afb114d"
+      }
+    }
+  ],
+  "score": 20,
+  "completedAt": {
+    "$date": "2024-12-06T08:05:12.848Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6752b1bc7709e97f0afb1367"
+  },
+  "user": {
+    "$oid": "67415a85a2f18db52e257bde"
+  },
+  "test": {
+    "$oid": "674aa413e9af88ae517198fa"
+  },
+  "answers": [
+    {
+      "questionText": "SpaceX has made space launches more expensive.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "6752b1bc7709e97f0afb1368"
+      }
+    },
+    {
+      "questionText": "NASA plans to establish a permanent base on the Moon.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "6752b1bc7709e97f0afb1369"
+      }
+    },
+    {
+      "questionText": "The James Webb Space Telescope can observe distant galaxies.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "6752b1bc7709e97f0afb136a"
+      }
+    },
+    {
+      "questionText": "The passage discusses the cost of training astronauts.",
+      "userAnswer": "true",
+      "correctAnswer": "not given",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "6752b1bc7709e97f0afb136b"
+      }
+    },
+    {
+      "questionText": "China has successfully landed rovers on Mars.",
+      "userAnswer": "false",
+      "correctAnswer": "true",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "6752b1bc7709e97f0afb136c"
+      }
+    }
+  ],
+  "score": 40,
+  "completedAt": {
+    "$date": "2024-12-06T08:11:40.456Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6752c0e46c453d275dc325c8"
+  },
+  "user": {
+    "$oid": "674dbeabac4de52e96da37ca"
+  },
+  "test": {
+    "$oid": "674aa435e9af88ae517198fc"
+  },
+  "answers": [
+    {
+      "questionText": "AI systems can assist in medical diagnosis.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "6752c0e46c453d275dc325c9"
+      }
+    },
+    {
+      "questionText": "All experts agree that AI poses no risks.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "6752c0e46c453d275dc325ca"
+      }
+    },
+    {
+      "questionText": "AI is used in financial fraud detection.",
+      "userAnswer": "false",
+      "correctAnswer": "true",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "6752c0e46c453d275dc325cb"
+      }
+    },
+    {
+      "questionText": "The passage discusses AI's role in transportation.",
+      "userAnswer": "true",
+      "correctAnswer": "not given",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "6752c0e46c453d275dc325cc"
+      }
+    },
+    {
+      "questionText": "Algorithmic bias is mentioned as an ethical concern.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "6752c0e46c453d275dc325cd"
+      }
+    }
+  ],
+  "score": 40,
+  "completedAt": {
+    "$date": "2024-12-06T09:16:20.443Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67542734e56e3efcb1012949"
+  },
+  "user": {
+    "$oid": "674dbeabac4de52e96da37ca"
+  },
+  "test": {
+    "$oid": "674aa413e9af88ae517198fa"
+  },
+  "answers": [
+    {
+      "questionText": "SpaceX has made space launches more expensive.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "67542734e56e3efcb101294a"
+      }
+    },
+    {
+      "questionText": "NASA plans to establish a permanent base on the Moon.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "67542734e56e3efcb101294b"
+      }
+    },
+    {
+      "questionText": "The James Webb Space Telescope can observe distant galaxies.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "67542734e56e3efcb101294c"
+      }
+    },
+    {
+      "questionText": "The passage discusses the cost of training astronauts.",
+      "userAnswer": "true",
+      "correctAnswer": "not given",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "67542734e56e3efcb101294d"
+      }
+    },
+    {
+      "questionText": "China has successfully landed rovers on Mars.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "67542734e56e3efcb101294e"
+      }
+    }
+  ],
+  "score": 60,
+  "completedAt": {
+    "$date": "2024-12-07T10:45:08.749Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67542eeb27a03ea6a485ab3d"
+  },
+  "user": {
+    "$oid": "674dbeabac4de52e96da37ca"
+  },
+  "test": {
+    "$oid": "674aa413e9af88ae517198fa"
+  },
+  "answers": [
+    {
+      "questionText": "SpaceX has made space launches more expensive.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "67542eeb27a03ea6a485ab3e"
+      }
+    },
+    {
+      "questionText": "NASA plans to establish a permanent base on the Moon.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "67542eeb27a03ea6a485ab3f"
+      }
+    },
+    {
+      "questionText": "The James Webb Space Telescope can observe distant galaxies.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "67542eeb27a03ea6a485ab40"
+      }
+    },
+    {
+      "questionText": "The passage discusses the cost of training astronauts.",
+      "userAnswer": "true",
+      "correctAnswer": "not given",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "67542eeb27a03ea6a485ab41"
+      }
+    },
+    {
+      "questionText": "China has successfully landed rovers on Mars.",
+      "userAnswer": "false",
+      "correctAnswer": "true",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "67542eeb27a03ea6a485ab42"
+      }
+    }
+  ],
+  "score": 40,
+  "completedAt": {
+    "$date": "2024-12-07T11:18:03.687Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6754395068cacf93dfa8c797"
+  },
+  "user": {
+    "$oid": "674dbeabac4de52e96da37ca"
+  },
+  "test": {
+    "$oid": "674aa435e9af88ae517198fc"
+  },
+  "answers": [
+    {
+      "questionText": "AI systems can assist in medical diagnosis.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "6754395068cacf93dfa8c798"
+      }
+    },
+    {
+      "questionText": "All experts agree that AI poses no risks.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "6754395068cacf93dfa8c799"
+      }
+    },
+    {
+      "questionText": "AI is used in financial fraud detection.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "6754395068cacf93dfa8c79a"
+      }
+    },
+    {
+      "questionText": "The passage discusses AI's role in transportation.",
+      "userAnswer": "false",
+      "correctAnswer": "not given",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "6754395068cacf93dfa8c79b"
+      }
+    },
+    {
+      "questionText": "Algorithmic bias is mentioned as an ethical concern.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "6754395068cacf93dfa8c79c"
+      }
+    }
+  ],
+  "score": 60,
+  "completedAt": {
+    "$date": "2024-12-07T12:02:24.931Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67543d282f03a84f8240d18e"
+  },
+  "user": {
+    "$oid": "67543d1b2f03a84f8240d0f7"
+  },
+  "test": {
+    "$oid": "674aa435e9af88ae517198fc"
+  },
+  "answers": [
+    {
+      "questionText": "AI systems can assist in medical diagnosis.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "67543d282f03a84f8240d18f"
+      }
+    },
+    {
+      "questionText": "All experts agree that AI poses no risks.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "67543d282f03a84f8240d190"
+      }
+    },
+    {
+      "questionText": "AI is used in financial fraud detection.",
+      "userAnswer": "false",
+      "correctAnswer": "true",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "67543d282f03a84f8240d191"
+      }
+    },
+    {
+      "questionText": "The passage discusses AI's role in transportation.",
+      "userAnswer": "true",
+      "correctAnswer": "not given",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "67543d282f03a84f8240d192"
+      }
+    },
+    {
+      "questionText": "Algorithmic bias is mentioned as an ethical concern.",
+      "userAnswer": "false",
+      "correctAnswer": "true",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "67543d282f03a84f8240d193"
+      }
+    }
+  ],
+  "score": 20,
+  "completedAt": {
+    "$date": "2024-12-07T12:18:48.331Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67544a9c2f03a84f8240d846"
+  },
+  "user": {
+    "$oid": "674dbeabac4de52e96da37ca"
+  },
+  "test": {
+    "$oid": "674aa413e9af88ae517198fa"
+  },
+  "answers": [
+    {
+      "questionText": "SpaceX has made space launches more expensive.",
+      "userAnswer": "false",
+      "correctAnswer": "false",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "67544a9c2f03a84f8240d847"
+      }
+    },
+    {
+      "questionText": "NASA plans to establish a permanent base on the Moon.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "67544a9c2f03a84f8240d848"
+      }
+    },
+    {
+      "questionText": "The James Webb Space Telescope can observe distant galaxies.",
+      "userAnswer": "false",
+      "correctAnswer": "true",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "67544a9c2f03a84f8240d849"
+      }
+    },
+    {
+      "questionText": "The passage discusses the cost of training astronauts.",
+      "userAnswer": "not given",
+      "correctAnswer": "not given",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "67544a9c2f03a84f8240d84a"
+      }
+    },
+    {
+      "questionText": "China has successfully landed rovers on Mars.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "67544a9c2f03a84f8240d84b"
+      }
+    }
+  ],
+  "score": 80,
+  "completedAt": {
+    "$date": "2024-12-07T13:16:12.229Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6757a35fdcc4d32b16634235"
+  },
+  "user": {
+    "$oid": "674dbeabac4de52e96da37ca"
+  },
+  "test": {
+    "$oid": "674aa413e9af88ae517198fa"
+  },
+  "answers": [
+    {
+      "questionText": "SpaceX has made space launches more expensive.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "6757a35fdcc4d32b16634236"
+      }
+    },
+    {
+      "questionText": "NASA plans to establish a permanent base on the Moon.",
+      "userAnswer": "false",
+      "correctAnswer": "true",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "6757a35fdcc4d32b16634237"
+      }
+    },
+    {
+      "questionText": "The James Webb Space Telescope can observe distant galaxies.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "6757a35fdcc4d32b16634238"
+      }
+    },
+    {
+      "questionText": "The passage discusses the cost of training astronauts.",
+      "userAnswer": "true",
+      "correctAnswer": "not given",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "6757a35fdcc4d32b16634239"
+      }
+    },
+    {
+      "questionText": "China has successfully landed rovers on Mars.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "6757a35fdcc4d32b1663423a"
+      }
+    }
+  ],
+  "score": 40,
+  "completedAt": {
+    "$date": "2024-12-10T02:11:43.333Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6757a750dcc4d32b1663466d"
+  },
+  "user": {
+    "$oid": "674dbeabac4de52e96da37ca"
+  },
+  "test": {
+    "$oid": "674aa454e9af88ae51719902"
+  },
+  "answers": [
+    {
+      "questionText": "Solar panel costs have decreased by 80% in the past decade.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "6757a750dcc4d32b1663466e"
+      }
+    },
+    {
+      "questionText": "Renewable energy cannot be stored effectively.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "6757a750dcc4d32b1663466f"
+      }
+    },
+    {
+      "questionText": "Denmark and Germany use significant renewable energy.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "6757a750dcc4d32b16634670"
+      }
+    },
+    {
+      "questionText": "The passage discusses nuclear fusion.",
+      "userAnswer": "true",
+      "correctAnswer": "not given",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "6757a750dcc4d32b16634671"
+      }
+    },
+    {
+      "questionText": "Green hydrogen is mentioned as a solution.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "6757a750dcc4d32b16634672"
+      }
+    }
+  ],
+  "score": 60,
+  "completedAt": {
+    "$date": "2024-12-10T02:28:32.610Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6757aadbaa4c3fa80bad985d"
+  },
+  "user": {
+    "$oid": "674dbeabac4de52e96da37ca"
+  },
+  "test": {
+    "$oid": "674aa414e9af88ae517199ff"
+  },
+  "answers": [
+    {
+      "questionText": "SpaceX has reduced launch costs by 70% using reusable rockets.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "6757aadbaa4c3fa80bad985e"
+      }
+    },
+    {
+      "questionText": "The James Webb Telescope is located on Earth.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "6757aadbaa4c3fa80bad985f"
+      }
+    },
+    {
+      "questionText": "The Tiangong space station can support unlimited astronauts.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "6757aadbaa4c3fa80bad9860"
+      }
+    },
+    {
+      "questionText": "Scientists have found over 5,000 exoplanets.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "6757aadbaa4c3fa80bad9861"
+      }
+    },
+    {
+      "questionText": "The passage mentions the total cost of the Artemis program.",
+      "userAnswer": "false",
+      "correctAnswer": "not given",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "6757aadbaa4c3fa80bad9862"
+      }
+    },
+    {
+      "questionText": "A 100-kg defunct satellite was successfully removed in 2023.",
+      "userAnswer": "false",
+      "correctAnswer": "true",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "6757aadbaa4c3fa80bad9863"
+      }
+    },
+    {
+      "questionText": "15 nations are involved in major space station projects.",
+      "userAnswer": "false",
+      "correctAnswer": "true",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "6757aadbaa4c3fa80bad9864"
+      }
+    },
+    {
+      "questionText": "The passage specifies the number of tourists who have visited space.",
+      "userAnswer": "true",
+      "correctAnswer": "not given",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "6757aadbaa4c3fa80bad9865"
+      }
+    },
+    {
+      "questionText": "All exoplanets discovered are in habitable zones.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "6757aadbaa4c3fa80bad9866"
+      }
+    },
+    {
+      "questionText": "The passage mentions the training period for astronauts.",
+      "userAnswer": "true",
+      "correctAnswer": "not given",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "6757aadbaa4c3fa80bad9867"
+      }
+    }
+  ],
+  "score": 20,
+  "completedAt": {
+    "$date": "2024-12-10T02:43:39.468Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6757b112aa4c3fa80bad9d60"
+  },
+  "user": {
+    "$oid": "67415a85a2f18db52e257bde"
+  },
+  "test": {
+    "$oid": "674aa414e9af88ae517198ff"
+  },
+  "answers": [
+    {
+      "questionText": "Renewable energy adoption has increased 150% since 2010.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "6757b112aa4c3fa80bad9d61"
+      }
+    },
+    {
+      "questionText": "Marine protected areas cover 30% of global oceans.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "6757b112aa4c3fa80bad9d62"
+      }
+    },
+    {
+      "questionText": "All planted trees in reforestation projects survive.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "6757b112aa4c3fa80bad9d63"
+      }
+    },
+    {
+      "questionText": "Urban farming has reduced carbon emissions by 25% in participating cities.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "6757b112aa4c3fa80bad9d64"
+      }
+    },
+    {
+      "questionText": "The passage mentions the cost of urban farming projects.",
+      "userAnswer": "false",
+      "correctAnswer": "not given",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "6757b112aa4c3fa80bad9d65"
+      }
+    },
+    {
+      "questionText": "Deforestation rates have decreased by 20% since 2018.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "6757b112aa4c3fa80bad9d66"
+      }
+    },
+    {
+      "questionText": "Water conservation has completely solved global water scarcity.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "6757b112aa4c3fa80bad9d67"
+      }
+    },
+    {
+      "questionText": "10 million volunteers participate in citizen science projects.",
+      "userAnswer": "false",
+      "correctAnswer": "true",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "6757b112aa4c3fa80bad9d68"
+      }
+    },
+    {
+      "questionText": "The passage specifies the number of conservation scientists worldwide.",
+      "userAnswer": "false",
+      "correctAnswer": "not given",
+      "isCorrect": false,
+      "_id": {
+        "$oid": "6757b112aa4c3fa80bad9d69"
+      }
+    },
+    {
+      "questionText": "All pledged climate action funding has been delivered.",
+      "userAnswer": "false",
+      "correctAnswer": "false",
+      "isCorrect": true,
+      "_id": {
+        "$oid": "6757b112aa4c3fa80bad9d6a"
+      }
+    }
+  ],
+  "score": 40,
+  "completedAt": {
+    "$date": "2024-12-10T03:10:10.758Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6757ffbc9745bdf2e0d92fc8"
+  },
+  "user": "67543d1b2f03a84f8240d0f7",
+  "test": {
+    "$oid": "674aa413e9af88ae517198fa"
+  },
+  "score": 20,
+  "answers": [
+    {
+      "questionText": "SpaceX has made space launches more expensive.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "explanation": "The passage states that SpaceX has reduced launch costs with reusable rocket technology."
+    },
+    {
+      "questionText": "NASA plans to establish a permanent base on the Moon.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage mentions NASA's plans for a permanent lunar base."
+    },
+    {
+      "questionText": "The James Webb Space Telescope can observe distant galaxies.",
+      "userAnswer": "false",
+      "correctAnswer": "true",
+      "isCorrect": false,
+      "explanation": "The passage states that the telescope provides views of distant galaxies."
+    },
+    {
+      "questionText": "The passage discusses the cost of training astronauts.",
+      "userAnswer": "false",
+      "correctAnswer": "not given",
+      "isCorrect": false,
+      "explanation": "The passage does not mention anything about astronaut training costs."
+    },
+    {
+      "questionText": "China has successfully landed rovers on Mars.",
+      "userAnswer": "not given",
+      "correctAnswer": "true",
+      "isCorrect": false,
+      "explanation": "The passage explicitly mentions China's successful Mars rover landings."
+    }
+  ],
+  "completedAt": {
+    "$date": "2024-12-10T08:45:48.499Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6757ffcb9745bdf2e0d93022"
+  },
+  "user": "67543d1b2f03a84f8240d0f7",
+  "test": {
+    "$oid": "6757ff3dd8e43a9a22d54a91"
+  },
+  "score": 60,
+  "answers": [
+    {
+      "questionText": "Tech companies collect users' location information.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage explicitly mentions location information as part of collected personal data."
+    },
+    {
+      "questionText": "GDPR was implemented in the United States.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "explanation": "The passage states that GDPR is European regulation."
+    },
+    {
+      "questionText": "Companies must get consent for data collection.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage mentions that explicit consent is now required."
+    },
+    {
+      "questionText": "The passage discusses cryptocurrency privacy.",
+      "userAnswer": "true",
+      "correctAnswer": "not given",
+      "isCorrect": false,
+      "explanation": "The passage does not mention anything about cryptocurrency."
+    },
+    {
+      "questionText": "Facial recognition is mentioned as a privacy challenge.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage lists facial recognition as one of the new challenges to privacy."
+    },
+    {
+      "questionText": "Data breaches affect only a small number of users.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "explanation": "The passage states that data breaches affect millions of users worldwide."
+    },
+    {
+      "questionText": "Companies are investing in cybersecurity.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage mentions that companies are investing heavily in cybersecurity measures."
+    },
+    {
+      "questionText": "Privacy advocates oppose all technological advancement.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "explanation": "The passage suggests a balance between privacy rights and technological advancement."
+    },
+    {
+      "questionText": "Organizations must be transparent about data collection.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage states that organizations must be transparent about their data collection practices."
+    },
+    {
+      "questionText": "AI-powered surveillance is mentioned as a privacy concern.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage includes AI-powered surveillance among the new challenges to privacy."
+    }
+  ],
+  "completedAt": {
+    "$date": "2024-12-10T08:46:03.367Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6758010d9745bdf2e0d931d5"
+  },
+  "user": "67415a85a2f18db52e257bde",
+  "test": {
+    "$oid": "674aa413e9af88ae517198fa"
+  },
+  "score": 40,
+  "answers": [
+    {
+      "questionText": "SpaceX has made space launches more expensive.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "explanation": "The passage states that SpaceX has reduced launch costs with reusable rocket technology."
+    },
+    {
+      "questionText": "NASA plans to establish a permanent base on the Moon.",
+      "userAnswer": "false",
+      "correctAnswer": "true",
+      "isCorrect": false,
+      "explanation": "The passage mentions NASA's plans for a permanent lunar base."
+    },
+    {
+      "questionText": "The James Webb Space Telescope can observe distant galaxies.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage states that the telescope provides views of distant galaxies."
+    },
+    {
+      "questionText": "The passage discusses the cost of training astronauts.",
+      "userAnswer": "true",
+      "correctAnswer": "not given",
+      "isCorrect": false,
+      "explanation": "The passage does not mention anything about astronaut training costs."
+    },
+    {
+      "questionText": "China has successfully landed rovers on Mars.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage explicitly mentions China's successful Mars rover landings."
+    }
+  ],
+  "completedAt": {
+    "$date": "2024-12-10T08:51:25.359Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "675801cb9745bdf2e0d932dd"
+  },
+  "user": "67415a85a2f18db52e257bde",
+  "test": {
+    "$oid": "674aa435e9af88ae517198fc"
+  },
+  "score": 60,
+  "answers": [
+    {
+      "questionText": "AI systems can assist in medical diagnosis.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage mentions AI algorithms assisting doctors in diagnosing diseases."
+    },
+    {
+      "questionText": "All experts agree that AI poses no risks.",
+      "userAnswer": "false",
+      "correctAnswer": "false",
+      "isCorrect": true,
+      "explanation": "The passage mentions that some experts warn about potential risks."
+    },
+    {
+      "questionText": "AI is used in financial fraud detection.",
+      "userAnswer": "false",
+      "correctAnswer": "true",
+      "isCorrect": false,
+      "explanation": "The passage states that AI-powered systems detect fraud in financial services."
+    },
+    {
+      "questionText": "The passage discusses AI's role in transportation.",
+      "userAnswer": "true",
+      "correctAnswer": "not given",
+      "isCorrect": false,
+      "explanation": "The passage does not mention AI's role in transportation."
+    },
+    {
+      "questionText": "Algorithmic bias is mentioned as an ethical concern.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage explicitly lists algorithmic bias as one of the ethical concerns."
+    }
+  ],
+  "completedAt": {
+    "$date": "2024-12-10T08:54:35.294Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6758023a9745bdf2e0d93337"
+  },
+  "user": "67415a85a2f18db52e257bde",
+  "test": {
+    "$oid": "674aa413e9af88ae517198fa"
+  },
+  "score": 60,
+  "answers": [
+    {
+      "questionText": "SpaceX has made space launches more expensive.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "explanation": "The passage states that SpaceX has reduced launch costs with reusable rocket technology."
+    },
+    {
+      "questionText": "NASA plans to establish a permanent base on the Moon.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage mentions NASA's plans for a permanent lunar base."
+    },
+    {
+      "questionText": "The James Webb Space Telescope can observe distant galaxies.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage states that the telescope provides views of distant galaxies."
+    },
+    {
+      "questionText": "The passage discusses the cost of training astronauts.",
+      "userAnswer": "true",
+      "correctAnswer": "not given",
+      "isCorrect": false,
+      "explanation": "The passage does not mention anything about astronaut training costs."
+    },
+    {
+      "questionText": "China has successfully landed rovers on Mars.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage explicitly mentions China's successful Mars rover landings."
+    }
+  ],
+  "completedAt": {
+    "$date": "2024-12-10T08:56:26.277Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "675802ea9745bdf2e0d9333d"
+  },
+  "user": "67415a85a2f18db52e257bde",
+  "test": {
+    "$oid": "674aa413e9af88ae517198fa"
+  },
+  "score": 40,
+  "answers": [
+    {
+      "questionText": "SpaceX has made space launches more expensive.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "explanation": "The passage states that SpaceX has reduced launch costs with reusable rocket technology."
+    },
+    {
+      "questionText": "NASA plans to establish a permanent base on the Moon.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage mentions NASA's plans for a permanent lunar base."
+    },
+    {
+      "questionText": "The James Webb Space Telescope can observe distant galaxies.",
+      "userAnswer": "false",
+      "correctAnswer": "true",
+      "isCorrect": false,
+      "explanation": "The passage states that the telescope provides views of distant galaxies."
+    },
+    {
+      "questionText": "The passage discusses the cost of training astronauts.",
+      "userAnswer": "true",
+      "correctAnswer": "not given",
+      "isCorrect": false,
+      "explanation": "The passage does not mention anything about astronaut training costs."
+    },
+    {
+      "questionText": "China has successfully landed rovers on Mars.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage explicitly mentions China's successful Mars rover landings."
+    }
+  ],
+  "completedAt": {
+    "$date": "2024-12-10T08:59:22.923Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "675804ec9745bdf2e0d93585"
+  },
+  "user": "67415a85a2f18db52e257bde",
+  "test": {
+    "$oid": "6757ff3dd8e43a9a22d54a91"
+  },
+  "score": 50,
+  "answers": [
+    {
+      "questionText": "Tech companies collect users' location information.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage explicitly mentions location information as part of collected personal data."
+    },
+    {
+      "questionText": "GDPR was implemented in the United States.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "explanation": "The passage states that GDPR is European regulation."
+    },
+    {
+      "questionText": "Companies must get consent for data collection.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage mentions that explicit consent is now required."
+    },
+    {
+      "questionText": "The passage discusses cryptocurrency privacy.",
+      "userAnswer": "true",
+      "correctAnswer": "not given",
+      "isCorrect": false,
+      "explanation": "The passage does not mention anything about cryptocurrency."
+    },
+    {
+      "questionText": "Facial recognition is mentioned as a privacy challenge.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage lists facial recognition as one of the new challenges to privacy."
+    },
+    {
+      "questionText": "Data breaches affect only a small number of users.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "explanation": "The passage states that data breaches affect millions of users worldwide."
+    },
+    {
+      "questionText": "Companies are investing in cybersecurity.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage mentions that companies are investing heavily in cybersecurity measures."
+    },
+    {
+      "questionText": "Privacy advocates oppose all technological advancement.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "explanation": "The passage suggests a balance between privacy rights and technological advancement."
+    },
+    {
+      "questionText": "Organizations must be transparent about data collection.",
+      "userAnswer": "false",
+      "correctAnswer": "true",
+      "isCorrect": false,
+      "explanation": "The passage states that organizations must be transparent about their data collection practices."
+    },
+    {
+      "questionText": "AI-powered surveillance is mentioned as a privacy concern.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage includes AI-powered surveillance among the new challenges to privacy."
+    }
+  ],
+  "completedAt": {
+    "$date": "2024-12-10T09:07:56.468Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "675807599745bdf2e0d93693"
+  },
+  "user": "67415a85a2f18db52e257bde",
+  "test": {
+    "$oid": "6757ff3dd8e43a9a22d54a91"
+  },
+  "score": 60,
+  "answers": [
+    {
+      "questionText": "Tech companies collect users' location information.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage explicitly mentions location information as part of collected personal data."
+    },
+    {
+      "questionText": "GDPR was implemented in the United States.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "explanation": "The passage states that GDPR is European regulation."
+    },
+    {
+      "questionText": "Companies must get consent for data collection.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage mentions that explicit consent is now required."
+    },
+    {
+      "questionText": "The passage discusses cryptocurrency privacy.",
+      "userAnswer": "true",
+      "correctAnswer": "not given",
+      "isCorrect": false,
+      "explanation": "The passage does not mention anything about cryptocurrency."
+    },
+    {
+      "questionText": "Facial recognition is mentioned as a privacy challenge.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage lists facial recognition as one of the new challenges to privacy."
+    },
+    {
+      "questionText": "Data breaches affect only a small number of users.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "explanation": "The passage states that data breaches affect millions of users worldwide."
+    },
+    {
+      "questionText": "Companies are investing in cybersecurity.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage mentions that companies are investing heavily in cybersecurity measures."
+    },
+    {
+      "questionText": "Privacy advocates oppose all technological advancement.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "explanation": "The passage suggests a balance between privacy rights and technological advancement."
+    },
+    {
+      "questionText": "Organizations must be transparent about data collection.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage states that organizations must be transparent about their data collection practices."
+    },
+    {
+      "questionText": "AI-powered surveillance is mentioned as a privacy concern.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage includes AI-powered surveillance among the new challenges to privacy."
+    }
+  ],
+  "completedAt": {
+    "$date": "2024-12-10T09:18:17.004Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "675808539745bdf2e0d93746"
+  },
+  "user": "67415a85a2f18db52e257bde",
+  "test": {
+    "$oid": "674aa435e9af88ae517198fc"
+  },
+  "score": 60,
+  "answers": [
+    {
+      "questionText": "AI systems can assist in medical diagnosis.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage mentions AI algorithms assisting doctors in diagnosing diseases."
+    },
+    {
+      "questionText": "All experts agree that AI poses no risks.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "explanation": "The passage mentions that some experts warn about potential risks."
+    },
+    {
+      "questionText": "AI is used in financial fraud detection.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage states that AI-powered systems detect fraud in financial services."
+    },
+    {
+      "questionText": "The passage discusses AI's role in transportation.",
+      "userAnswer": "true",
+      "correctAnswer": "not given",
+      "isCorrect": false,
+      "explanation": "The passage does not mention AI's role in transportation."
+    },
+    {
+      "questionText": "Algorithmic bias is mentioned as an ethical concern.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage explicitly lists algorithmic bias as one of the ethical concerns."
+    }
+  ],
+  "completedAt": {
+    "$date": "2024-12-10T09:22:27.937Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "675808719745bdf2e0d937a0"
+  },
+  "user": "67415a85a2f18db52e257bde",
+  "test": {
+    "$oid": "6757ff3dd8e43a9a22d54a91"
+  },
+  "score": 60,
+  "answers": [
+    {
+      "questionText": "Tech companies collect users' location information.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage explicitly mentions location information as part of collected personal data."
+    },
+    {
+      "questionText": "GDPR was implemented in the United States.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "explanation": "The passage states that GDPR is European regulation."
+    },
+    {
+      "questionText": "Companies must get consent for data collection.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage mentions that explicit consent is now required."
+    },
+    {
+      "questionText": "The passage discusses cryptocurrency privacy.",
+      "userAnswer": "true",
+      "correctAnswer": "not given",
+      "isCorrect": false,
+      "explanation": "The passage does not mention anything about cryptocurrency."
+    },
+    {
+      "questionText": "Facial recognition is mentioned as a privacy challenge.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage lists facial recognition as one of the new challenges to privacy."
+    },
+    {
+      "questionText": "Data breaches affect only a small number of users.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "explanation": "The passage states that data breaches affect millions of users worldwide."
+    },
+    {
+      "questionText": "Companies are investing in cybersecurity.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage mentions that companies are investing heavily in cybersecurity measures."
+    },
+    {
+      "questionText": "Privacy advocates oppose all technological advancement.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "explanation": "The passage suggests a balance between privacy rights and technological advancement."
+    },
+    {
+      "questionText": "Organizations must be transparent about data collection.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage states that organizations must be transparent about their data collection practices."
+    },
+    {
+      "questionText": "AI-powered surveillance is mentioned as a privacy concern.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage includes AI-powered surveillance among the new challenges to privacy."
+    }
+  ],
+  "completedAt": {
+    "$date": "2024-12-10T09:22:57.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6758094d9745bdf2e0d937fc"
+  },
+  "user": "67415a85a2f18db52e257bde",
+  "test": {
+    "$oid": "674aa435e9af88ae517198fc"
+  },
+  "score": 60,
+  "answers": [
+    {
+      "questionText": "AI systems can assist in medical diagnosis.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage mentions AI algorithms assisting doctors in diagnosing diseases."
+    },
+    {
+      "questionText": "All experts agree that AI poses no risks.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "explanation": "The passage mentions that some experts warn about potential risks."
+    },
+    {
+      "questionText": "AI is used in financial fraud detection.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage states that AI-powered systems detect fraud in financial services."
+    },
+    {
+      "questionText": "The passage discusses AI's role in transportation.",
+      "userAnswer": "true",
+      "correctAnswer": "not given",
+      "isCorrect": false,
+      "explanation": "The passage does not mention AI's role in transportation."
+    },
+    {
+      "questionText": "Algorithmic bias is mentioned as an ethical concern.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage explicitly lists algorithmic bias as one of the ethical concerns."
+    }
+  ],
+  "completedAt": {
+    "$date": "2024-12-10T09:26:37.447Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67580acd9745bdf2e0d938c0"
+  },
+  "user": "67415a85a2f18db52e257bde",
+  "test": {
+    "$oid": "6757ff3dd8e43a9a22d54a92"
+  },
+  "score": 60,
+  "answers": [
+    {
+      "questionText": "Global temperatures are rising due to greenhouse gas emissions.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage explicitly states that global temperatures are rising due to increased greenhouse gas emissions."
+    },
+    {
+      "questionText": "The Paris Agreement focuses on nuclear energy development.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "explanation": "The passage mentions the Paris Agreement in relation to reducing carbon emissions and transitioning to renewable energy, not nuclear energy."
+    },
+    {
+      "questionText": "Climate change affects food security in vulnerable regions.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage mentions that climate change impacts agriculture, causing crop failures and food security concerns in vulnerable regions."
+    },
+    {
+      "questionText": "The IPCC predicts a temperature rise of exactly 2°C.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "explanation": "The passage states temperatures could rise by more than 2°C, not exactly 2°C."
+    },
+    {
+      "questionText": "The passage discusses the impact of climate change on urban air quality.",
+      "userAnswer": "true",
+      "correctAnswer": "not given",
+      "isCorrect": false,
+      "explanation": "The passage does not mention anything about urban air quality."
+    },
+    {
+      "questionText": "Rising sea levels threaten coastal communities.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage explicitly mentions that coastal communities face threats from rising sea levels."
+    },
+    {
+      "questionText": "Businesses are adopting sustainable practices.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage states that businesses are increasingly adopting sustainable practices."
+    },
+    {
+      "questionText": "Climate change only affects developing countries.",
+      "userAnswer": "",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "explanation": "The passage indicates that climate change affects ecosystems and human societies worldwide."
+    },
+    {
+      "questionText": "Public awareness about climate change has increased.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage mentions that public awareness and education about climate change have grown."
+    },
+    {
+      "questionText": "The passage mentions deforestation as a contributor to climate change.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage lists deforestation along with burning fossil fuels as primary causes of increased greenhouse gas emissions."
+    }
+  ],
+  "completedAt": {
+    "$date": "2024-12-10T09:33:01.962Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67580b349745bdf2e0d939ac"
+  },
+  "user": "67415a85a2f18db52e257bde",
+  "test": {
+    "$oid": "6757ff3dd8e43a9a22d54a93"
+  },
+  "score": 60,
+  "answers": [
+    {
+      "questionText": "AI systems can perpetuate societal biases through training data.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage states that machine learning algorithms can perpetuate existing societal biases if trained on biased data sets."
+    },
+    {
+      "questionText": "The EU has banned all AI applications in healthcare.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "explanation": "The passage mentions EU regulations requiring transparency and oversight, not banning AI in healthcare."
+    },
+    {
+      "questionText": "AI applications in healthcare raise privacy concerns.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage mentions concerns about patient confidentiality and consent in healthcare AI applications."
+    },
+    {
+      "questionText": "The passage discusses the impact of AI on stock markets.",
+      "userAnswer": "true",
+      "correctAnswer": "not given",
+      "isCorrect": false,
+      "explanation": "The passage does not mention anything about AI's impact on stock markets."
+    },
+    {
+      "questionText": "Companies are establishing ethics boards for AI development.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage explicitly states that tech companies are establishing ethics boards."
+    },
+    {
+      "questionText": "AI automation has no impact on employment.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "explanation": "The passage mentions debates about economic displacement due to AI automation."
+    },
+    {
+      "questionText": "Explainable AI systems can justify their decisions to humans.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage mentions 'explainable AI' systems that can justify their decisions in human-understandable terms."
+    },
+    {
+      "questionText": "Military use of AI has raised ethical concerns.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage mentions concerns about military applications of AI, particularly in autonomous weapons systems."
+    },
+    {
+      "questionText": "Current ethical measures for AI are universally accepted as sufficient.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "explanation": "The passage notes that critics argue these measures may be insufficient."
+    },
+    {
+      "questionText": "The EU requires human oversight for high-risk AI applications.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage explicitly states that EU regulations mandate human oversight for high-risk AI applications."
+    }
+  ],
+  "completedAt": {
+    "$date": "2024-12-10T09:34:44.686Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67580cfe9745bdf2e0d93f08"
+  },
+  "user": "67415a85a2f18db52e257bde",
+  "test": {
+    "$oid": "6757ff3dd8e43a9a22d54a94"
+  },
+  "score": 60,
+  "answers": [
+    {
+      "questionText": "Eight million tons of plastic enter the oceans each year.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage explicitly states that an estimated 8 million tons of plastic enter the oceans annually."
+    },
+    {
+      "questionText": "All fish populations have been depleted by overfishing.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "explanation": "The passage mentions that many fish populations are depleted, not all of them."
+    },
+    {
+      "questionText": "Marine protected areas cover 7% of the world's oceans.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage states that marine protected areas cover approximately 7% of the world's oceans."
+    },
+    {
+      "questionText": "The passage discusses the impact of underwater mining.",
+      "userAnswer": "true",
+      "correctAnswer": "not given",
+      "isCorrect": false,
+      "explanation": "The passage does not mention anything about underwater mining."
+    },
+    {
+      "questionText": "Ocean acidification affects marine organisms' shell formation.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage mentions that ocean acidification affects marine organisms' ability to build and maintain shells."
+    },
+    {
+      "questionText": "Conservation efforts have completely solved the plastic pollution crisis.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "explanation": "The passage indicates that plastic pollution remains a serious problem despite conservation efforts."
+    },
+    {
+      "questionText": "Climate change causes coral bleaching.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage states that rising ocean temperatures from climate change cause coral bleaching."
+    },
+    {
+      "questionText": "Marine life often mistakes plastic for food.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage explicitly mentions that marine life frequently mistakes plastic debris for food."
+    },
+    {
+      "questionText": "The UN reports 30% of fish stocks are sustainably managed.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "explanation": "The passage states that over 30% of fish stocks are being exploited at unsustainable rates."
+    },
+    {
+      "questionText": "Communities are adopting plastic-free initiatives.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage mentions that many communities and businesses are adopting plastic-free initiatives."
+    }
+  ],
+  "completedAt": {
+    "$date": "2024-12-10T09:42:22.467Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "675e86190062a99aef5659af"
+  },
+  "user": "674dbeabac4de52e96da37ca",
+  "test": {
+    "$oid": "6757ff3dd8e43a9a22d54a95"
+  },
+  "score": 60,
+  "answers": [
+    {
+      "questionText": "Reusable rocket technology has reduced launch costs.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage states that companies have developed reusable rocket technology, significantly reducing launch costs."
+    },
+    {
+      "questionText": "The Artemis program plans to send humans to Mars by 2025.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "explanation": "The passage mentions that the Artemis program aims to return humans to the Moon, not Mars, by 2025."
+    },
+    {
+      "questionText": "The International Space Station conducts microgravity research.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage mentions that the ISS serves as a platform for scientific research in microgravity."
+    },
+    {
+      "questionText": "The passage discusses the cost of space tourism.",
+      "userAnswer": "true",
+      "correctAnswer": "not given",
+      "isCorrect": false,
+      "explanation": "The passage does not mention anything about space tourism costs."
+    },
+    {
+      "questionText": "Space debris poses risks to active satellites.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage explicitly states that space debris poses risks to active satellites and spacecraft."
+    },
+    {
+      "questionText": "All countries have established their own space forces.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "explanation": "The passage mentions that several countries, not all, are establishing space forces."
+    },
+    {
+      "questionText": "The James Webb Telescope can observe distant galaxies.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage states that the James Webb Space Telescope provides views of distant galaxies."
+    },
+    {
+      "questionText": "Mars rovers are searching for signs of ancient life.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage mentions that rovers like Perseverance are searching for signs of ancient microbial life."
+    },
+    {
+      "questionText": "International collaboration in space research has ceased.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "explanation": "The passage states that international collaboration in space research continues."
+    },
+    {
+      "questionText": "Private companies are involved in space exploration.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage mentions companies like SpaceX and Blue Origin being involved in space exploration."
+    }
+  ],
+  "completedAt": {
+    "$date": "2024-12-15T07:32:41.521Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "675e8b030062a99aef565d1b"
+  },
+  "user": "674dbeabac4de52e96da37ca",
+  "test": {
+    "$oid": "6757ff3dd8e43a9a22d54a93"
+  },
+  "score": 20,
+  "answers": [
+    {
+      "questionText": "AI systems can perpetuate societal biases through training data.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage states that machine learning algorithms can perpetuate existing societal biases if trained on biased data sets."
+    },
+    {
+      "questionText": "The EU has banned all AI applications in healthcare.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "explanation": "The passage mentions EU regulations requiring transparency and oversight, not banning AI in healthcare."
+    },
+    {
+      "questionText": "AI applications in healthcare raise privacy concerns.",
+      "userAnswer": "false",
+      "correctAnswer": "true",
+      "isCorrect": false,
+      "explanation": "The passage mentions concerns about patient confidentiality and consent in healthcare AI applications."
+    },
+    {
+      "questionText": "The passage discusses the impact of AI on stock markets.",
+      "userAnswer": "false",
+      "correctAnswer": "not given",
+      "isCorrect": false,
+      "explanation": "The passage does not mention anything about AI's impact on stock markets."
+    },
+    {
+      "questionText": "Companies are establishing ethics boards for AI development.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage explicitly states that tech companies are establishing ethics boards."
+    },
+    {
+      "questionText": "AI automation has no impact on employment.",
+      "userAnswer": "",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "explanation": "The passage mentions debates about economic displacement due to AI automation."
+    },
+    {
+      "questionText": "Explainable AI systems can justify their decisions to humans.",
+      "userAnswer": "",
+      "correctAnswer": "true",
+      "isCorrect": false,
+      "explanation": "The passage mentions 'explainable AI' systems that can justify their decisions in human-understandable terms."
+    },
+    {
+      "questionText": "Military use of AI has raised ethical concerns.",
+      "userAnswer": "",
+      "correctAnswer": "true",
+      "isCorrect": false,
+      "explanation": "The passage mentions concerns about military applications of AI, particularly in autonomous weapons systems."
+    },
+    {
+      "questionText": "Current ethical measures for AI are universally accepted as sufficient.",
+      "userAnswer": "",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "explanation": "The passage notes that critics argue these measures may be insufficient."
+    },
+    {
+      "questionText": "The EU requires human oversight for high-risk AI applications.",
+      "userAnswer": "",
+      "correctAnswer": "true",
+      "isCorrect": false,
+      "explanation": "The passage explicitly states that EU regulations mandate human oversight for high-risk AI applications."
+    }
+  ],
+  "completedAt": {
+    "$date": "2024-12-15T07:53:39.922Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "675e8b270062a99aef565ded"
+  },
+  "user": "674dbeabac4de52e96da37ca",
+  "test": {
+    "$oid": "674aa44ae9af88ae51719900"
+  },
+  "score": 20,
+  "answers": [
+    {
+      "questionText": "Tech companies collect users' location information.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage explicitly mentions location information as part of collected data."
+    },
+    {
+      "questionText": "GDPR was implemented in the United States.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "explanation": "The passage states that GDPR is European regulation."
+    },
+    {
+      "questionText": "Companies must get consent for data collection.",
+      "userAnswer": "not given",
+      "correctAnswer": "true",
+      "isCorrect": false,
+      "explanation": "The passage mentions that explicit consent is now required."
+    },
+    {
+      "questionText": "The passage discusses cryptocurrency privacy.",
+      "userAnswer": "false",
+      "correctAnswer": "not given",
+      "isCorrect": false,
+      "explanation": "The passage does not mention anything about cryptocurrency."
+    },
+    {
+      "questionText": "Facial recognition is mentioned as a privacy challenge.",
+      "userAnswer": "",
+      "correctAnswer": "true",
+      "isCorrect": false,
+      "explanation": "The passage lists facial recognition as one of the new challenges to privacy."
+    }
+  ],
+  "completedAt": {
+    "$date": "2024-12-15T07:54:15.593Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "676627b7a00b21bccd6d528b"
+  },
+  "user": "674dbeabac4de52e96da37ca",
+  "test": {
+    "$oid": "674aa435e9af88ae517198fc"
+  },
+  "score": 60,
+  "answers": [
+    {
+      "questionText": "AI systems can assist in medical diagnosis.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage mentions AI algorithms assisting doctors in diagnosing diseases."
+    },
+    {
+      "questionText": "All experts agree that AI poses no risks.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "explanation": "The passage mentions that some experts warn about potential risks."
+    },
+    {
+      "questionText": "AI is used in financial fraud detection.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage states that AI-powered systems detect fraud in financial services."
+    },
+    {
+      "questionText": "The passage discusses AI's role in transportation.",
+      "userAnswer": "true",
+      "correctAnswer": "not given",
+      "isCorrect": false,
+      "explanation": "The passage does not mention AI's role in transportation."
+    },
+    {
+      "questionText": "Algorithmic bias is mentioned as an ethical concern.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage explicitly lists algorithmic bias as one of the ethical concerns."
+    }
+  ],
+  "completedAt": {
+    "$date": "2024-12-21T02:28:07.149Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6766291ca00b21bccd6d535d"
+  },
+  "user": "674dbeabac4de52e96da37ca",
+  "test": {
+    "$oid": "674aa435e9af88ae517198fc"
+  },
+  "score": 80,
+  "answers": [
+    {
+      "questionText": "AI systems can assist in medical diagnosis.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage mentions AI algorithms assisting doctors in diagnosing diseases."
+    },
+    {
+      "questionText": "All experts agree that AI poses no risks.",
+      "userAnswer": "false",
+      "correctAnswer": "false",
+      "isCorrect": true,
+      "explanation": "The passage mentions that some experts warn about potential risks."
+    },
+    {
+      "questionText": "AI is used in financial fraud detection.",
+      "userAnswer": "false",
+      "correctAnswer": "true",
+      "isCorrect": false,
+      "explanation": "The passage states that AI-powered systems detect fraud in financial services."
+    },
+    {
+      "questionText": "The passage discusses AI's role in transportation.",
+      "userAnswer": "not given",
+      "correctAnswer": "not given",
+      "isCorrect": true,
+      "explanation": "The passage does not mention AI's role in transportation."
+    },
+    {
+      "questionText": "Algorithmic bias is mentioned as an ethical concern.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage explicitly lists algorithmic bias as one of the ethical concerns."
+    }
+  ],
+  "completedAt": {
+    "$date": "2024-12-21T02:34:04.513Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "678955a0b6511cc77213917c"
+  },
+  "user": "674dbeabac4de52e96da37ca",
+  "test": {
+    "$oid": "674aa435e9af88ae517198fc"
+  },
+  "score": 60,
+  "answers": [
+    {
+      "questionText": "AI systems can assist in medical diagnosis.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage mentions AI algorithms assisting doctors in diagnosing diseases."
+    },
+    {
+      "questionText": "All experts agree that AI poses no risks.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "explanation": "The passage mentions that some experts warn about potential risks."
+    },
+    {
+      "questionText": "AI is used in financial fraud detection.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage states that AI-powered systems detect fraud in financial services."
+    },
+    {
+      "questionText": "The passage discusses AI's role in transportation.",
+      "userAnswer": "false",
+      "correctAnswer": "not given",
+      "isCorrect": false,
+      "explanation": "The passage does not mention AI's role in transportation."
+    },
+    {
+      "questionText": "Algorithmic bias is mentioned as an ethical concern.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage explicitly lists algorithmic bias as one of the ethical concerns."
+    }
+  ],
+  "completedAt": {
+    "$date": "2025-01-16T18:53:20.351Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "678b015d29e5f5473686096c"
+  },
+  "user": "674dbeabac4de52e96da37ca",
+  "test": {
+    "$oid": "6757ff3dd8e43a9a22d54a93"
+  },
+  "score": 60,
+  "answers": [
+    {
+      "questionText": "AI systems can perpetuate societal biases through training data.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage states that machine learning algorithms can perpetuate existing societal biases if trained on biased data sets."
+    },
+    {
+      "questionText": "The EU has banned all AI applications in healthcare.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "explanation": "The passage mentions EU regulations requiring transparency and oversight, not banning AI in healthcare."
+    },
+    {
+      "questionText": "AI applications in healthcare raise privacy concerns.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage mentions concerns about patient confidentiality and consent in healthcare AI applications."
+    },
+    {
+      "questionText": "The passage discusses the impact of AI on stock markets.",
+      "userAnswer": "true",
+      "correctAnswer": "not given",
+      "isCorrect": false,
+      "explanation": "The passage does not mention anything about AI's impact on stock markets."
+    },
+    {
+      "questionText": "Companies are establishing ethics boards for AI development.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage explicitly states that tech companies are establishing ethics boards."
+    },
+    {
+      "questionText": "AI automation has no impact on employment.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "explanation": "The passage mentions debates about economic displacement due to AI automation."
+    },
+    {
+      "questionText": "Explainable AI systems can justify their decisions to humans.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage mentions 'explainable AI' systems that can justify their decisions in human-understandable terms."
+    },
+    {
+      "questionText": "Military use of AI has raised ethical concerns.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage mentions concerns about military applications of AI, particularly in autonomous weapons systems."
+    },
+    {
+      "questionText": "Current ethical measures for AI are universally accepted as sufficient.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "explanation": "The passage notes that critics argue these measures may be insufficient."
+    },
+    {
+      "questionText": "The EU requires human oversight for high-risk AI applications.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage explicitly states that EU regulations mandate human oversight for high-risk AI applications."
+    }
+  ],
+  "completedAt": {
+    "$date": "2025-01-18T01:18:21.845Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "678b03c829e5f54736860d54"
+  },
+  "user": "674dbeabac4de52e96da37ca",
+  "test": {
+    "$oid": "674aa454e9af88ae51719902"
+  },
+  "score": 60,
+  "answers": [
+    {
+      "questionText": "Solar panel costs have decreased by 80% in the past decade.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage explicitly states this cost reduction."
+    },
+    {
+      "questionText": "Renewable energy cannot be stored effectively.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "explanation": "The passage mentions that advanced battery technology is solving storage issues."
+    },
+    {
+      "questionText": "Denmark and Germany use significant renewable energy.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage states they generate more than 40% from renewables."
+    },
+    {
+      "questionText": "The passage discusses nuclear fusion.",
+      "userAnswer": "true",
+      "correctAnswer": "not given",
+      "isCorrect": false,
+      "explanation": "The passage does not mention nuclear fusion."
+    },
+    {
+      "questionText": "Green hydrogen is mentioned as a solution.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage mentions green hydrogen as a promising solution."
+    }
+  ],
+  "completedAt": {
+    "$date": "2025-01-18T01:28:40.979Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "678b044029e5f54736860f22"
+  },
+  "user": "674dbeabac4de52e96da37ca",
+  "test": {
+    "$oid": "674aa413e9af88ae517198fa"
+  },
+  "score": 67,
+  "answers": [
+    {
+      "questionText": "SpaceX has made space launches more expensive.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "explanation": "The passage states that SpaceX has reduced launch costs with reusable rocket technology."
+    },
+    {
+      "questionText": "NASA plans to establish a permanent base on the Moon.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage mentions NASA's plans for a permanent lunar base."
+    },
+    {
+      "questionText": "The James Webb Space Telescope can observe distant galaxies.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage states that the telescope provides views of distant galaxies."
+    },
+    {
+      "questionText": "The passage discusses the cost of training astronauts.",
+      "userAnswer": "true",
+      "correctAnswer": "not given",
+      "isCorrect": false,
+      "explanation": "The passage does not mention anything about astronaut training costs."
+    },
+    {
+      "questionText": "China has successfully landed rovers on Mars.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage explicitly mentions China's successful Mars rover landings."
+    },
+    {
+      "questionText": "test.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "Test"
+    }
+  ],
+  "completedAt": {
+    "$date": "2025-01-18T01:30:40.896Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "678b051c29e5f5473686100c"
+  },
+  "user": "674dbeabac4de52e96da37ca",
+  "test": {
+    "$oid": "6757ff3dd8e43a9a22d54a92"
+  },
+  "score": 60,
+  "answers": [
+    {
+      "questionText": "Global temperatures are rising due to greenhouse gas emissions.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage explicitly states that global temperatures are rising due to increased greenhouse gas emissions."
+    },
+    {
+      "questionText": "The Paris Agreement focuses on nuclear energy development.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "explanation": "The passage mentions the Paris Agreement in relation to reducing carbon emissions and transitioning to renewable energy, not nuclear energy."
+    },
+    {
+      "questionText": "Climate change affects food security in vulnerable regions.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage mentions that climate change impacts agriculture, causing crop failures and food security concerns in vulnerable regions."
+    },
+    {
+      "questionText": "The IPCC predicts a temperature rise of exactly 2°C.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "explanation": "The passage states temperatures could rise by more than 2°C, not exactly 2°C."
+    },
+    {
+      "questionText": "The passage discusses the impact of climate change on urban air quality.",
+      "userAnswer": "true",
+      "correctAnswer": "not given",
+      "isCorrect": false,
+      "explanation": "The passage does not mention anything about urban air quality."
+    },
+    {
+      "questionText": "Rising sea levels threaten coastal communities.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage explicitly mentions that coastal communities face threats from rising sea levels."
+    },
+    {
+      "questionText": "Businesses are adopting sustainable practices.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage states that businesses are increasingly adopting sustainable practices."
+    },
+    {
+      "questionText": "Climate change only affects developing countries.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "explanation": "The passage indicates that climate change affects ecosystems and human societies worldwide."
+    },
+    {
+      "questionText": "Public awareness about climate change has increased.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage mentions that public awareness and education about climate change have grown."
+    },
+    {
+      "questionText": "The passage mentions deforestation as a contributor to climate change.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage lists deforestation along with burning fossil fuels as primary causes of increased greenhouse gas emissions."
+    }
+  ],
+  "completedAt": {
+    "$date": "2025-01-18T01:34:20.491Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "678b0698037ad6ee407fd073"
+  },
+  "user": "674dbeabac4de52e96da37ca",
+  "test": {
+    "$oid": "674aa413e9af88ae517198fa"
+  },
+  "score": 67,
+  "answers": [
+    {
+      "questionText": "SpaceX has made space launches more expensive.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "explanation": "The passage states that SpaceX has reduced launch costs with reusable rocket technology."
+    },
+    {
+      "questionText": "NASA plans to establish a permanent base on the Moon.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage mentions NASA's plans for a permanent lunar base."
+    },
+    {
+      "questionText": "The James Webb Space Telescope can observe distant galaxies.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage states that the telescope provides views of distant galaxies."
+    },
+    {
+      "questionText": "The passage discusses the cost of training astronauts.",
+      "userAnswer": "true",
+      "correctAnswer": "not given",
+      "isCorrect": false,
+      "explanation": "The passage does not mention anything about astronaut training costs."
+    },
+    {
+      "questionText": "China has successfully landed rovers on Mars.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage explicitly mentions China's successful Mars rover landings."
+    },
+    {
+      "questionText": "test.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "Test"
+    }
+  ],
+  "completedAt": {
+    "$date": "2025-01-18T01:40:40.418Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "678b06d1037ad6ee407fd15d"
+  },
+  "user": "674dbeabac4de52e96da37ca",
+  "test": {
+    "$oid": "674aa413e9af88ae517198fa"
+  },
+  "score": 83,
+  "answers": [
+    {
+      "questionText": "SpaceX has made space launches more expensive.",
+      "userAnswer": "false",
+      "correctAnswer": "false",
+      "isCorrect": true,
+      "explanation": "The passage states that SpaceX has reduced launch costs with reusable rocket technology."
+    },
+    {
+      "questionText": "NASA plans to establish a permanent base on the Moon.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage mentions NASA's plans for a permanent lunar base."
+    },
+    {
+      "questionText": "The James Webb Space Telescope can observe distant galaxies.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage states that the telescope provides views of distant galaxies."
+    },
+    {
+      "questionText": "The passage discusses the cost of training astronauts.",
+      "userAnswer": "false",
+      "correctAnswer": "not given",
+      "isCorrect": false,
+      "explanation": "The passage does not mention anything about astronaut training costs."
+    },
+    {
+      "questionText": "China has successfully landed rovers on Mars.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage explicitly mentions China's successful Mars rover landings."
+    },
+    {
+      "questionText": "test.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "Test"
+    }
+  ],
+  "completedAt": {
+    "$date": "2025-01-18T01:41:37.662Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "678b070f9e2e378e345b595b"
+  },
+  "user": "674dbeabac4de52e96da37ca",
+  "test": {
+    "$oid": "674aa413e9af88ae517198fa"
+  },
+  "score": 83,
+  "answers": [
+    {
+      "questionText": "SpaceX has made space launches more expensive.",
+      "userAnswer": "false",
+      "correctAnswer": "false",
+      "isCorrect": true,
+      "explanation": "The passage states that SpaceX has reduced launch costs with reusable rocket technology."
+    },
+    {
+      "questionText": "NASA plans to establish a permanent base on the Moon.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage mentions NASA's plans for a permanent lunar base."
+    },
+    {
+      "questionText": "The James Webb Space Telescope can observe distant galaxies.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage states that the telescope provides views of distant galaxies."
+    },
+    {
+      "questionText": "The passage discusses the cost of training astronauts.",
+      "userAnswer": "false",
+      "correctAnswer": "not given",
+      "isCorrect": false,
+      "explanation": "The passage does not mention anything about astronaut training costs."
+    },
+    {
+      "questionText": "China has successfully landed rovers on Mars.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage explicitly mentions China's successful Mars rover landings."
+    },
+    {
+      "questionText": "test.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "Test"
+    }
+  ],
+  "completedAt": {
+    "$date": "2025-01-18T01:42:39.487Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "678b083a5e846b81c213307f"
+  },
+  "user": "674dbeabac4de52e96da37ca",
+  "test": {
+    "$oid": "674aa413e9af88ae517198fa"
+  },
+  "score": 50,
+  "answers": [
+    {
+      "questionText": "SpaceX has made space launches more expensive.",
+      "userAnswer": "true",
+      "correctAnswer": "false",
+      "isCorrect": false,
+      "explanation": "The passage states that SpaceX has reduced launch costs with reusable rocket technology."
+    },
+    {
+      "questionText": "NASA plans to establish a permanent base on the Moon.",
+      "userAnswer": "false",
+      "correctAnswer": "true",
+      "isCorrect": false,
+      "explanation": "The passage mentions NASA's plans for a permanent lunar base."
+    },
+    {
+      "questionText": "The James Webb Space Telescope can observe distant galaxies.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage states that the telescope provides views of distant galaxies."
+    },
+    {
+      "questionText": "The passage discusses the cost of training astronauts.",
+      "userAnswer": "true",
+      "correctAnswer": "not given",
+      "isCorrect": false,
+      "explanation": "The passage does not mention anything about astronaut training costs."
+    },
+    {
+      "questionText": "China has successfully landed rovers on Mars.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "The passage explicitly mentions China's successful Mars rover landings."
+    },
+    {
+      "questionText": "test.",
+      "userAnswer": "true",
+      "correctAnswer": "true",
+      "isCorrect": true,
+      "explanation": "Test"
+    }
+  ],
+  "completedAt": {
+    "$date": "2025-01-18T01:47:38.919Z"
+  }
+}]

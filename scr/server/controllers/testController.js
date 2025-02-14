@@ -44,56 +44,54 @@ exports.getTest = async (req, res) => {
 // Nộp bài test
 exports.submitTest = async (req, res) => {
   try {
-    const { answers } = req.body;
     const test = await Test.findById(req.params.id);
-
     if (!test) {
-      return res.status(404).json({
-        message: 'Không tìm thấy bài test'
-      });
+      return res.status(404).json({ message: 'Test not found' });
     }
 
-    // Tính điểm
-    let score = 0;
-    const results = test.questions.map((question, index) => {
-      const isCorrect = answers[question._id] === question.correctAnswer;
-      if (isCorrect) score++;
+    const { answers } = req.body;
+    
+    if (!Array.isArray(answers)) {
+      return res.status(400).json({ message: 'Invalid answers format' });
+    }
+
+    let correctCount = 0;
+    const answersDetails = test.questions.map((question, index) => {
+      const userAnswer = answers[index] || '';
+      const isCorrect = userAnswer === question.correctAnswer;
+      if (isCorrect) correctCount++;
+      
       return {
-        question: question.questionText,
-        userAnswer: answers[question._id],
+        questionText: question.questionText,
+        userAnswer: userAnswer,
         correctAnswer: question.correctAnswer,
-        isCorrect,
-        explanation: question.explanation
+        isCorrect: isCorrect
       };
     });
 
-    // Tính điểm theo thang 10
-    const finalScore = (score / test.questions.length) * 10;
+    // Tính điểm với 2 số thập phân
+    const score = Number(((correctCount / test.questions.length) * 100).toFixed(4));
+    console.log('Calculated score:', score);
 
-    // Cập nhật điểm trung bình của bài test
-    await test.updateAverageScore(finalScore);
-
-    // Lưu kết quả vào lịch sử của user
-    req.user.testResults.push({
+    const testResult = await TestResult.create({
+      user: req.user._id,
       test: test._id,
-      score: finalScore,
-      answers: results
+      answers: answersDetails,
+      score: score
     });
-    await req.user.save();
 
-    res.status(200).json({
-      message: 'Nộp bài thành công',
-      data: {
-        score: finalScore,
-        total: test.questions.length,
-        correct: score,
-        results
-      }
+    console.log('Test result saved:', testResult._id);
+
+    res.json({ 
+      score,
+      testResultId: testResult._id,
+      details: answersDetails
     });
-  } catch (error) {
-    res.status(400).json({
-      message: 'Nộp bài thất bại',
-      error: error.message
+  } catch (err) {
+    console.error('Server error:', err);
+    res.status(500).json({ 
+      message: 'Server error',
+      error: err.message 
     });
   }
 };

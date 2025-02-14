@@ -35,12 +35,12 @@ function Register() {
     e.preventDefault();
     setError('');
 
-    // Validate password match
+    
     if (formData.password !== formData.confirmPassword) {
       return setError('Passwords do not match');
     }
 
-    // Validate password length
+    
     if (formData.password.length < 6) {
       return setError('Password must be at least 6 characters long');
     }
@@ -55,7 +55,7 @@ function Register() {
       });
 
       if (response.data.success) {
-        // Lưu token và thông tin user từ response mới
+       
         localStorage.setItem('token', response.data.data.token);
         localStorage.setItem('user', JSON.stringify(response.data.data.user));
         

@@ -13,7 +13,7 @@ exports.register = async (req, res) => {
   try {
     const { username, email, password } = req.body;
 
-    // Kiểm tra email đã tồn tại
+    
     const existingUser = await User.findOne({ email });
     if (existingUser) {
       return res.status(400).json({
@@ -21,14 +21,14 @@ exports.register = async (req, res) => {
       });
     }
 
-    // Tạo user mới
+    
     const user = await User.create({
       username,
       email,
       password
     });
 
-    // Tạo token
+    
     const token = signToken(user._id);
 
     res.status(201).json({

@@ -260,7 +260,10 @@ router.post('/:id/submit', auth, async (req, res) => {
             };
         });
 
-        const score = Math.round((correctCount / test.questions.length) * 100);
+       
+        const rawScore = (correctCount / test.questions.length) * 100;
+        const score = parseFloat(rawScore.toFixed(2));
+
 
         // Log kết quả
         console.log('Test submission results:', {

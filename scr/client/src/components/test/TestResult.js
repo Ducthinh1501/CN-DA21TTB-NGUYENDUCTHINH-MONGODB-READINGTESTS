@@ -20,7 +20,7 @@ const TestResult = ({ test, answers, score }) => {
                         Test Completed!
                     </Typography>
                     <Typography variant="h5" color="primary" gutterBottom>
-                        Your Score: {score}%
+                        Your Score: {score.toFixed(2)}%
                     </Typography>
                 </Box>
 
